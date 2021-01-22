@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e2d2f0;
+}
+
+header {
+    text-align: right;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+nav#menu-h ul li {
+    display: inline;
+    font-size: 14pt;
+}
+
+nav#menu-h ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: background .4s;
+}
+nav#menu-h ul li#opcao a:hover {
+    background-color: #42136e;
+}
+
+nav#menu-h ul li:first-child a {
+    margin-top: -22px;
+    float: left;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 28pt;
+}
+
+section#content {
+    margin-top: 80px;
+    width: 80%;
+    background-color: rgb(204, 190, 218);
+    border-radius: 30px;
+    color: rgb(162, 106, 214);
+    font-size: 30pt;
+    height: 1000px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 10pt;
+    
+}
+
