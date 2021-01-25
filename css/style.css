@@ -49,16 +49,13 @@ nav#menu-h ul li:first-child a {
 }
 
 section#content {
-    margin-top: 80px;
-    width: 80%;
-    background-color: rgb(204, 190, 218);
-    border-radius: 30px;
-    color: rgb(162, 106, 214);
-    font-size: 30pt;
+    margin-top: 60px;
+    width: 90%;
     height: 1000px;
+    padding: 15px;
 }
 
-footer {
+footer p {
     text-align: center;
     width: 100%;
     background-color: blueviolet;
