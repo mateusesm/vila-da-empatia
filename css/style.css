@@ -19,6 +19,15 @@ header {
     width: 100%;
 }
 
+h1#logo a {
+    color: #ffffff;
+    float: left;
+    text-decoration: none;
+    margin: 1%;
+    font-family: 'Hachi-Maru-Pop';
+
+}
+
 nav#menu-h ul {
     list-style: none;
     padding: 0;
@@ -39,13 +48,6 @@ nav#menu-h ul li a {
 }
 nav#menu-h ul li#opcao a:hover {
     background-color: #42136e;
-}
-
-nav#menu-h ul li:first-child a {
-    margin-top: -22px;
-    float: left;
-    font-family: 'Hachi Maru Pop', cursive;
-    font-size: 28pt;
 }
 
 section#content {
