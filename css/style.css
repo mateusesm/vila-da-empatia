@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #bcdce4;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     top: 0;
     width: 100%;
     height: 9.5vh;
-    background-color: #90A5AB;
+    background-color: #2e7a8d;
 }
 
 h1#logo a {
@@ -45,46 +45,46 @@ nav#menu-h ul li a {
     display: inline-block;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 1.490%;
     transition: background .4s;
 }
+
 nav#menu-h ul li#opcao a:hover {
     background-color: #003844;
 }
 
 section#content {
-    margin-top: 60px;
-    width: 70%;
-    padding: 15px;
-    background-color: #ffffff;
+    display: block;
+    margin-top: 4.5%;
+    width: 90%;
+    padding: 2%;
 }
 
 ul#cards {
-    width: 500px;
-    margin: 0 auto;
-    padding: 15px;
-    overflow: hidden;
     list-style: none;
+    width: 100%;
+    height: 80vh;
 }
 
-ul#cards span {
-    opacity: 1;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #000000;
-    background-color: rgba(0,0,0,.3);
-    font-size: 9pt;
-    line-height: 100px;
-    padding: 5px;
+ul#cards li {
+    float: left;
+    width: 30%;
+    height: 40%;
+    margin: 1.5%;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.7);
+    transition: all .3s ease-in;
+    border-radius: 15px;
 }
 
-footer p {
+footer#rodape p {
     text-align: center;
     width: 100%;
-    background-color: #90A5AB;
+    background-color:#2e7a8d;
     color: #ffffff;
-    padding: 30px;
+    padding: 3%;
     font-size: 10pt;
-    
 }
 
 /*#90A5AB #FF0000 #F2F2F2 #E0E0C3 #E4F0CC #003844 #D1FFC6*/
