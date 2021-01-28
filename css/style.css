@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('../imagens/fundo.jpg') no-repeat 100%;
+    background: #dfc9dc;
 }
 
 header {
@@ -31,17 +31,17 @@ h1#logo a {
     font-family: 'Hachi Maru Pop', cursive;
 }
 
-nav#menu-h ul {
+nav#menu ul {
     list-style: none;
     padding: 0;
 }
 
-nav#menu-h ul li {
+nav#menu ul li {
     display: inline;
     font-size: 14pt;
 }
 
-nav#menu-h ul li a {
+nav#menu ul li a {
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -49,7 +49,7 @@ nav#menu-h ul li a {
     transition: background .4s;
 }
 
-nav#menu-h ul li#opcao a:hover {
+nav#menu ul li#opcao a:hover {
     background-color: #004a75;
 }
 
@@ -58,6 +58,20 @@ section#content {
     background: #dfc9dc;
     margin-top: 4.5%;
     width: 80%;
+    padding: 2%;
+    float: left;
+}
+
+article h1 {
+    font-size: 25pt;
+    color: rgba(0, 0, 0,.7);
+}
+
+aside#lateral {
+    display: block;
+    width: 50%;
+    float: right;
+    margin-top: -12%;
     padding: 2%;
 }
 
@@ -70,17 +84,21 @@ ul#cards {
 ul#cards li {
     float: left;
     width: 30%;
-    height: 35vh;
+    height: 30vh;
     margin: 1.5%;
     border: 5px solid #ffffff;
     background-color: #ffffff;
     box-shadow: 2px 2px 5px rgba(0,0,0,.9);
     transition: all .3s ease-in;
-    border-radius: 15px;    
+    border-radius: 15px;   
 }
 
 ul#cards li:hover {
    background-color: rgba(0,0,0,.1) ;
+}
+
+ul#cards a {
+    color: black;
 }
 
 footer#rodape p {
@@ -90,6 +108,7 @@ footer#rodape p {
     color: #ffffff;
     padding: 3%;
     font-size: 10pt;
+    clear: both;
 }
 
 /*#90A5AB #FF0000 #F2F2F2 #E0E0C3 #E4F0CC #003844 #D1FFC6 #0072BB  #2e7a8d */
