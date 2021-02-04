@@ -5,42 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vila da Empatia</title>
     <link rel="stylesheet" href="css/style.css">
+    <script
+		src="https://code.jquery.com/jquery-3.5.1.min.js"
+	    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous">
+    </script>
 </head>
 <body>
+    
     <header>
-        <h1 id="logo"><a href="index.html">Vila da Empatia</a></h1>
-        <nav id="menu">
-            <ul>
-                <li id="opcao"><a href="">Home</a></li>
-                <li id="opcao"><a href="">Sobre</a></li>
-                <li id="opcao"><a href="">Quem Somos</a></li>
-                <li id="opcao"><a href="">Contato</a></li>
-            </ul>
-        </nav>
-
+        <div class="navbar">
+            <div class="logo">
+                <h1><a href="index.html">Vila da Empatia</a></h1>
+            </div>
+            <div class="hamburguer"></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+                <section class="content">
+                        <article class="title"> 
+                            <h1>Sabemos como é se sentir sozinho<br/>
+                            por isso queremos te ajudar<br/>
+                            acesse os cards ao lado</h1>
+                        </article>
+                </section>
 
-        <section id="content">
-                <article id="title"> 
-                    <h1>Sabemos como é se sentir sozinho<br/>
-                    por isso queremos te ajudar<br/>
-                    acesse os cards ao lado</h1>
-                </article>
-        </section>
+                <aside class="lateral">
+                    <ul class="cards">
+                        <a href=""><li id="foto01"><span>Desabafe conosco</span></li></a>
+                        <a href=""><li><span>Aprenda a lidar com tudo isso</span></li></a>
+                        <a href=""><li><span>Como a família pode ajudar</span></li></a>
+                        <a href=""><li><span>Precisamos nos concientizar</span></li></a>
+                        <a href=""><li><span>Como identificar tristeza excessiva</span></li></a>
+                        <a href=""><li><span>CVV (Centro de Valorização da Vida)</span></li></a>
+                    </ul>
+                </aside>
 
-        <aside id="lateral">
-            <ul id="cards">
-                <a href=""><li id="foto01"><span>Desabafe conosco</span></li></a>
-                <a href=""><li><span>Aprenda a lidar com tudo isso</span></li></a>
-                <a href=""><li><span>Como a família pode ajudar</span></li></a>
-                <a href=""><li><span>Precisamos nos concientizar</span></li></a>
-                <a href=""><li><span>Como identificar tristeza excessiva</span></li></a>
-                <a href=""><li><span>CVV (Centro de Valorização da Vida)</span></li></a>
-            </ul>
-        </aside>
-
-    <footer id="rodape">
-        <p>&copy; Copyright 2021 Mateus Emanuel | Valéria Kelly | Maria Luiza | Francisca Jérssica | José Segundo</p>
-    </footer>
+            <footer class="rodape">
+                <p>&copy; Copyright 2021 Mateus Emanuel | Valéria Kelly | Maria Luiza | Francisca Jérssica | José Segundo</p>
+            </footer>
 </body>
 </html>
