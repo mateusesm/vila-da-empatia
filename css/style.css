@@ -13,48 +13,87 @@ body {
 }
 
 header {
-    text-align: right;
-    position: fixed;
-    left: 0;
-    top: 0;
     width: 100%;
-    height: 9.1vh;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
     background-color: #863c79;
 }
 
-h1#logo a {
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+div.logo a {
     color: #ffffff;
-    float: left;
     text-decoration: none;
-    margin: 0.1%;
-    margin-left: 1%;
-    padding: 0.1%;
+    text-align: center;
     font-family: 'Hachi Maru Pop', cursive;
 }
 
-nav#menu ul {
+.hamburguer {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburguer:after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 80%;
+    height: 5%;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.hamburguer:before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 80%;
+    height: 5%;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+nav.menu ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    align-items: center;
 }
 
-nav#menu ul li {
-    display: inline;
-    font-size: 14pt;
+nav.menu ul li {
+    margin-left: 10px;
 }
 
-nav#menu ul li a {
-    display: inline-block;
-    color: white;
+nav.menu ul li a {
+    display: block;
+    padding: 10px 15px;
     text-decoration: none;
-    padding: 1.490%;
-    transition: background .4s;
+    color: #dfc9dc;
+    font-size: 20px;
+    transition: 0.8s ease;
 }
 
-nav#menu ul li#opcao a:hover {
-    background-color: #582a50;
+nav.menu ul li a:hover {
+    color: #ffffff;
 }
 
-section#content {
+section.content {
     display: block;
     background: #dfc9dc;
     margin-top: 4.5%;
@@ -63,14 +102,14 @@ section#content {
     float: left;
 }
 
-article#title h1 {
+article.title h1 {
     font-size: 43pt;
     color: rgba(0, 0, 0,.7);
     margin-top: 2%;
     padding: 1%;
 }
 
-aside#lateral {
+aside.lateral {
     display: block;
     width: 60%;
     float: right;
@@ -79,13 +118,13 @@ aside#lateral {
     background: #dfc9dc;
 }
 
-ul#cards {
+ul.cards {
     list-style: none;
     width: 100%;
     height: 100vh;
 }
 
-ul#cards li {
+ul.cards li {
     float: left;
     width: 30%;
     height: 30vh;
@@ -97,7 +136,7 @@ ul#cards li {
     border-radius: 15px;   
 }
 
-ul#cards li#foto01 span {
+ul.cards li#foto01 span {
     opacity: 0;
     background: #8662a7;
     border-radius: 10px;
@@ -106,21 +145,21 @@ ul#cards li#foto01 span {
     transition: 1s;
 }
 
-ul#cards li#foto01:hover span {
+ul.cards li#foto01:hover span {
     opacity: 1;
 }
 
-ul#cards li#foto01  {
+ul.cards li#foto01  {
     background: url("../imagens/depressao.jpeg") no-repeat;
     background-position: 50%;
     background-size: 245px;
 }
 
-ul#cards a {
+ul.cards a {
     color: black;
 }
 
-footer#rodape p {
+footer.rodape p {
     text-align: center;
     width: 100%;
     background-color: #863c79;
