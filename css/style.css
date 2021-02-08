@@ -65,30 +65,18 @@ section.content {
     display: block;
     background: #dfc9dc;
     margin-top: 4.5%;
-    width: 40%;
+    width: 100%;
+    max-width: 80%;
     padding: 2%;
-    float: left;
 }
 
-article.title h1 {
-    font-size: 43pt;
-    color: rgba(0, 0, 0,.7);
-    margin-top: 2%;
-    padding: 1%;
-}
-
-aside.lateral {
-    display: block;
-    width: 60%;
-    float: right;
-    margin-top: 5%;
-    padding: 2%;
-    background: #dfc9dc;
+div.cards-content {
+    margin-top: 100px;
 }
 
 ul.cards {
     list-style: none;
-    width: 100%;
+    width: 80%;
     height: 100vh;
 }
 
@@ -106,7 +94,8 @@ ul.cards li {
 
 ul.cards li#foto01 span {
     opacity: 0;
-    background: #8662a7;
+    font-size: 8.5pt;
+    background: rgba(0,0,0,.4);
     border-radius: 10px;
     color: #ffffff;
     padding: 3%;
@@ -122,6 +111,107 @@ ul.cards li#foto01  {
     background-position: 50%;
     background-size: 245px;
 }
+
+ul.cards li#foto02 span {
+    opacity: 0;
+    font-size: 8.5pt;
+    background: rgba(0,0,0,.4);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 3%;
+    transition: 1s;
+}
+
+ul.cards li#foto02:hover span {
+    opacity: 1;
+}
+
+ul.cards li#foto02  {
+    background: url("../imagens/aprendendo-a-lidar.jpg") no-repeat;
+    background-position: 50%;
+    background-size: 245px;
+}
+
+ul.cards li#foto03 span {
+    opacity: 0;
+    font-size: 8.5pt;
+    background: rgba(0,0,0,.4);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 3%;
+    transition: 1s;
+}
+
+ul.cards li#foto03:hover span {
+    opacity: 1;
+}
+
+ul.cards li#foto03  {
+    background: url("../imagens/familia.jpg") no-repeat;
+    background-position: 50%;
+    background-size: 245px;
+}
+
+ul.cards li#foto04 span {
+    opacity: 0;
+    font-size: 8.5pt;
+    background: rgba(0,0,0,.4);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 3%;
+    transition: 1s;
+}
+
+ul.cards li#foto04:hover span {
+    opacity: 1;
+}
+
+ul.cards li#foto04  {
+    background: url("../imagens/mentecoracao.png") no-repeat;
+    background-position: 50%;
+    background-size: 245px;
+}
+
+ul.cards li#foto05 span {
+    opacity: 0;
+    font-size: 8.5pt;
+    background: rgba(0,0,0,.4);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 3%;
+    transition: 1s;
+}
+
+ul.cards li#foto05:hover span {
+    opacity: 1;
+}
+
+ul.cards li#foto05  {
+    background: url("../imagens/menteconfusa.png") no-repeat;
+    background-position: 50%;
+    background-size: 245px;
+}
+
+ul.cards li#foto06 span {
+    opacity: 0;
+    font-size: 8.5pt;
+    background: rgba(0,0,0,.4);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 3%;
+    transition: 1s;
+}
+
+ul.cards li#foto06:hover span {
+    opacity: 1;
+}
+
+ul.cards li#foto06  {
+    background: url("../imagens/menteregada.png") no-repeat;
+    background-position: 50%;
+    background-size: 245px;
+}
+
 
 ul.cards a {
     color: black;
