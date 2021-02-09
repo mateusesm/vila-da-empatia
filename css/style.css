@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #dfc9dc;
+    background: #ffffff;
    
 }
 
@@ -63,21 +63,20 @@ nav.menu ul li a:hover {
 
 section.content {
     display: block;
-    background: #dfc9dc;
+    background: #ffffff;
     margin-top: 4.5%;
     width: 100%;
     max-width: 80%;
     padding: 2%;
-}
-
-div.cards-content {
-    margin-top: 100px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.6);
 }
 
 ul.cards {
     list-style: none;
-    width: 80%;
+    width: 65%;
     height: 100vh;
+    border-radius: 10px;
+    height: 68vh;
 }
 
 ul.cards li {
@@ -110,6 +109,12 @@ ul.cards li#foto01  {
     background: url("../imagens/depressao.jpeg") no-repeat;
     background-position: 50%;
     background-size: 245px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul.cards li#foto01:hover {
+    transform: scale(1.2);
 }
 
 ul.cards li#foto02 span {
@@ -130,6 +135,12 @@ ul.cards li#foto02  {
     background: url("../imagens/aprendendo-a-lidar.jpg") no-repeat;
     background-position: 50%;
     background-size: 245px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul.cards li#foto02:hover {
+    transform: scale(1.2);
 }
 
 ul.cards li#foto03 span {
