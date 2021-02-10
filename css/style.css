@@ -71,12 +71,28 @@ section.content {
     box-shadow: 2px 2px 5px rgba(0,0,0,.6);
 }
 
+section article  h1 {
+    color: #ffffff;
+    background-color: #863c79;
+    font-size: 30pt;
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+hr {
+    width: 100%;
+    max-width: 90%;
+}
+
+
 ul.cards {
     list-style: none;
     width: 65%;
     height: 100vh;
     border-radius: 10px;
     height: 68vh;
+    margin-top: 50px;
 }
 
 ul.cards li {
