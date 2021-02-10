@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 * {
     margin: 0 auto;
@@ -52,7 +53,7 @@ nav.menu ul li a {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-    color: #dfc9dc;
+    color: #ffffff;
     font-size: 20px;
     transition: 0.8s ease;
 }
@@ -61,34 +62,62 @@ nav.menu ul li a:hover {
     color: #ffffff;
 }
 
+nav.menu ul li a span {
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+nav.menu ul li a span:hover {
+    border: #ffffff solid;
+}
+
 section.content {
     display: block;
     background: #ffffff;
     margin-top: 4.5%;
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     padding: 2%;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.6);
 }
 
-section article  h1 {
+article.title {
+    width: 80%;
+    color: rgba(0,0,0,.7);
+    text-align: left;
+    background: url(../imagens/depre.jpeg) no-repeat 100% 350%;
+    background-size: 350px;
+    margin-top: 0px;
+}
+
+div.text {
+    position: relative;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: bolder;
+    width: 60%;
+    right: 200px;
+    font-size: 25pt;
+    margin-top: 20px;
+}
+
+article.title h2 {
+    font-size: 15pt;
+    font-family: 'Hammersmith One', sans-serif;
     color: #ffffff;
     background-color: #863c79;
-    font-size: 30pt;
-    font-weight: bolder;
-    text-align: left;
-    margin-bottom: 50px;
-    width: 100%;
-}
-hr {
-    width: 100%;
-    max-width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 48px;
 }
 
+div.cards-content  {
+    background-color: #ffffff;
+    width: 100%;
+}
 
 ul.cards {
     list-style: none;
-    width: 65%;
+    width: 60%;
     height: 100vh;
     border-radius: 10px;
     height: 68vh;
@@ -126,7 +155,7 @@ ul.cards li#foto01:hover span {
 }*/
 
 ul.cards li#foto01  {
-    background: url("../imagens/depressao.jpeg") no-repeat;
+    background: url(../imagens/depressao.jpeg) no-repeat;
     background-position: 50%;
     background-size: 245px;
     transition: 0.5s;
@@ -172,7 +201,7 @@ ul.cards li#foto02:hover span {
 }*/
 
 ul.cards li#foto02  {
-    background: url("../imagens/aprendendo-a-lidar.jpg") no-repeat;
+    background: url(../imagens/aprendendo-a-lidar.jpg) no-repeat;
     background-position: 50%;
     background-size: 245px;
     transition: 0.5s;
@@ -218,7 +247,7 @@ ul.cards li#foto03:hover span {
 }*/
 
 ul.cards li#foto03  {
-    background: url("../imagens/familia.jpg") no-repeat;
+    background: url(../imagens/familia.jpg) no-repeat;
     background-position: 50%;
     background-size: 245px;
     transition: 0.5s;
@@ -265,7 +294,7 @@ ul.cards li#foto04:hover span {
 }*/
 
 ul.cards li#foto04  {
-    background: url("../imagens/mentecoracao.png") no-repeat;
+    background: url(../imagens/mentecoracao.png) no-repeat;
     background-position: 50%;
     background-size: 245px;
     transition: 0.5s;
@@ -312,7 +341,7 @@ ul.cards li#foto05:hover span {
 }*/
 
 ul.cards li#foto05  {
-    background: url("../imagens/menteconfusa.png") no-repeat;
+    background: url(../imagens/menteconfusa.png) no-repeat;
     background-position: 50%;
     background-size: 245px;
     transition: 0.5s;
@@ -359,7 +388,7 @@ ul.cards li#foto06:hover span {
 }*/
 
 ul.cards li#foto06  {
-    background: url("../imagens/menteregada.png") no-repeat;
+    background: url(../imagens/menteregada.png) no-repeat;
     background-position: 50%;
     background-size: 245px;
     transition: 0.5s;
