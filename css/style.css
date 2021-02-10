@@ -66,7 +66,7 @@ section.content {
     background: #ffffff;
     margin-top: 4.5%;
     width: 100%;
-    max-width: 80%;
+    max-width: 90%;
     padding: 2%;
     box-shadow: 2px 2px 5px rgba(0,0,0,.6);
 }
@@ -88,10 +88,14 @@ ul.cards li {
     background-color: rgba(0, 0, 0,.1);
     box-shadow: 2px 2px 5px rgba(0,0,0,.6);
     transition: all .3s ease-in;
-    border-radius: 15px;   
+    border-radius: 15px;  
 }
 
-ul.cards li#foto01 span {
+ul.cards li:hover{
+    border:#863c79 solid;
+}
+
+/*ul.cards li#foto01 span {
     opacity: 0;
     font-size: 8.5pt;
     background: rgba(0,0,0,.4);
@@ -103,7 +107,7 @@ ul.cards li#foto01 span {
 
 ul.cards li#foto01:hover span {
     opacity: 1;
-}
+}*/
 
 ul.cards li#foto01  {
     background: url("../imagens/depressao.jpeg") no-repeat;
@@ -114,10 +118,30 @@ ul.cards li#foto01  {
 }
 
 ul.cards li#foto01:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-ul.cards li#foto02 span {
+div#desabafe {
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: -6px;
+    color: #ffffff;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding: 65px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+div#desabafe:hover {
+    opacity: 1;
+}
+
+/*ul.cards li#foto02 span {
     opacity: 0;
     font-size: 8.5pt;
     background: rgba(0,0,0,.4);
@@ -129,7 +153,7 @@ ul.cards li#foto02 span {
 
 ul.cards li#foto02:hover span {
     opacity: 1;
-}
+}*/
 
 ul.cards li#foto02  {
     background: url("../imagens/aprendendo-a-lidar.jpg") no-repeat;
@@ -140,10 +164,30 @@ ul.cards li#foto02  {
 }
 
 ul.cards li#foto02:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-ul.cards li#foto03 span {
+div#aprenda {
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: -6px;
+    color: #ffffff;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding: 55px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+div#aprenda:hover {
+    opacity: 1;
+}
+
+/*ul.cards li#foto03 span {
     opacity: 0;
     font-size: 8.5pt;
     background: rgba(0,0,0,.4);
@@ -155,15 +199,42 @@ ul.cards li#foto03 span {
 
 ul.cards li#foto03:hover span {
     opacity: 1;
-}
+}*/
 
 ul.cards li#foto03  {
     background: url("../imagens/familia.jpg") no-repeat;
     background-position: 50%;
     background-size: 245px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-ul.cards li#foto04 span {
+ul.cards li#foto03:hover {
+    transform: scale(1.1);
+}
+
+div#familia {
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: -2px;
+    color: #ffffff;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+div#familia:hover {
+    opacity: 1;
+}
+
+
+/*ul.cards li#foto04 span {
     opacity: 0;
     font-size: 8.5pt;
     background: rgba(0,0,0,.4);
@@ -175,18 +246,45 @@ ul.cards li#foto04 span {
 
 ul.cards li#foto04:hover span {
     opacity: 1;
-}
+}*/
 
 ul.cards li#foto04  {
     background: url("../imagens/mentecoracao.png") no-repeat;
     background-position: 50%;
     background-size: 245px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-ul.cards li#foto05 span {
+ul.cards li#foto04:hover {
+    transform: scale(1.1);
+}
+
+div#conciencia {
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: -6px;
+    color: #ffffff;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding: 55px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+div#conciencia:hover {
+    opacity: 1;
+}
+
+
+/*ul.cards li#foto05 span {
     opacity: 0;
     font-size: 8.5pt;
-    background: rgba(0,0,0,.4);
+    background: hsla(0, 0%, 0%, 0.4);
     border-radius: 10px;
     color: #ffffff;
     padding: 3%;
@@ -195,15 +293,42 @@ ul.cards li#foto05 span {
 
 ul.cards li#foto05:hover span {
     opacity: 1;
-}
+}*/
 
 ul.cards li#foto05  {
     background: url("../imagens/menteconfusa.png") no-repeat;
     background-position: 50%;
     background-size: 245px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-ul.cards li#foto06 span {
+ul.cards li#foto05:hover {
+    transform: scale(1.1);
+}
+
+div#tristeza {
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: -6px;
+    color: #ffffff;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding: 45px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+div#tristeza:hover {
+    opacity: 1;
+}
+
+
+/*ul.cards li#foto06 span {
     opacity: 0;
     font-size: 8.5pt;
     background: rgba(0,0,0,.4);
@@ -215,18 +340,43 @@ ul.cards li#foto06 span {
 
 ul.cards li#foto06:hover span {
     opacity: 1;
-}
+}*/
 
 ul.cards li#foto06  {
     background: url("../imagens/menteregada.png") no-repeat;
     background-position: 50%;
     background-size: 245px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
+ul.cards li#foto06:hover {
+    transform: scale(1.1);
+}
 
-ul.cards a {
+div#cvv {
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: -6px;
+    color: #ffffff;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding: 45px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+div#cvv:hover {
+    opacity: 1;
+}
+
+/*ul.cards a {
     color: black;
-}
+}*/
 
 footer.rodape p {
     text-align: center;
