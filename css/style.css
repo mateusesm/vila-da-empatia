@@ -85,9 +85,15 @@ article.title {
     width: 80%;
     color: rgba(0,0,0,.7);
     text-align: left;
-    background: url(../imagens/depre.jpeg) no-repeat 100% 350%;
-    background-size: 350px;
     margin-top: 0px;
+}
+
+img#foto-principal {
+    position: relative;
+    float: right;
+    margin-top: -28%;
+    width: 40%;
+    height: 65vh;
 }
 
 div.text {
@@ -108,6 +114,8 @@ article.title h2 {
     border-radius: 10px;
     padding: 10px;
     margin-top: 48px;
+    float: left;
+    width: 60%;
 }
 
 div.cards-content  {
@@ -121,7 +129,7 @@ ul.cards {
     height: 100vh;
     border-radius: 10px;
     height: 68vh;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 ul.cards li {
@@ -155,7 +163,7 @@ ul.cards li#foto01:hover span {
 }*/
 
 ul.cards li#foto01  {
-    background: url(../imagens/depressao.jpeg) no-repeat;
+    background: url(../imagens/desabafo.jpeg) no-repeat;
     background-position: 50%;
     background-size: 245px;
     transition: 0.5s;
@@ -425,10 +433,11 @@ div#cvv:hover {
 
 footer.rodape p {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     background-color: #863c79;
     color: #ffffff;
-    padding: 7%;
+    padding: 5%;
     font-size: 10pt;
     clear: both;
 }
