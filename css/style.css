@@ -10,9 +10,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background: #ffffff;
-   
+    font-size: 1.6rem;
 }
 
 div.cards-content {
@@ -41,7 +45,7 @@ header {
 div.logo a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 18pt;
+    font-size: 2.2rem;
     font-family: 'Hachi Maru Pop', cursive;
     font-weight: bolder;
 }
@@ -61,7 +65,7 @@ nav.menu ul li a {
     padding: 10px 15px;
     text-decoration: none;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 nav.menu ul li a span {
@@ -92,19 +96,19 @@ article.title {
 article.title div {
     position: relative;
     width: 60%;
-    right: 200px;
+    right: 30vh;
 }
 
 article.title p {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 div.text {
     font-family: 'Hammersmith One', sans-serif;
     font-weight: bolder;
-    font-size: 25pt;
+    font-size: 3.2rem;
 }
 
 img#foto-principal {
@@ -112,7 +116,7 @@ img#foto-principal {
     right: 170px;
     margin-top: -26%;
     width: 28%;
-    height: 60vh;
+    height: auto;
 }
 
 section.second-content {
@@ -124,7 +128,7 @@ section.second-content {
 }
 
 section.second-content h2 {
-    font-size: 25pt;
+    font-size: 3.0rem;
     font-family: 'Hammersmith One', sans-serif;
     color: #863c79;
     text-align: center;
@@ -180,7 +184,7 @@ ul.cards li#foto01:hover {
 div#desabafe {
     position: relative;
     text-align: center;
-    font-size: 12pt;
+    font-size: 1.5rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -6px;
@@ -226,7 +230,7 @@ ul.cards li#foto02:hover {
 div#aprenda {
     position: relative;
     text-align: center;
-    font-size: 12pt;
+    font-size: 1.5rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -6px;
@@ -272,7 +276,7 @@ ul.cards li#foto03:hover {
 div#familia {
     position: relative;
     text-align: center;
-    font-size: 12pt;
+    font-size: 1.5rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -2px;
@@ -319,7 +323,7 @@ ul.cards li#foto04:hover {
 div#conciencia {
     position: relative;
     text-align: center;
-    font-size: 12pt;
+    font-size: 1.5rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -6px;
@@ -366,7 +370,7 @@ ul.cards li#foto05:hover {
 div#tristeza {
     position: relative;
     text-align: center;
-    font-size: 12pt;
+    font-size: 1.5rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -6px;
@@ -413,7 +417,7 @@ ul.cards li#foto06:hover {
 div#cvv {
     position: relative;
     text-align: center;
-    font-size: 12pt;
+    font-size: 1.5rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -6px;
@@ -441,7 +445,7 @@ footer.rodape p {
     background-color: #863c79;
     color: #ffffff;
     padding: 5%;
-    font-size: 10pt;
+    font-size: 1.3rem;
     clear: both;
 }
 
