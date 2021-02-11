@@ -6,6 +6,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    outline: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -28,12 +29,13 @@ header {
 }
 
 .navbar {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 div.logo a {
@@ -60,11 +62,6 @@ nav.menu ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-    transition: 0.8s ease;
-}
-
-nav.menu ul li a:hover {
-    color: #ffffff;
 }
 
 nav.menu ul li a span {
@@ -82,14 +79,13 @@ section.first-content {
     background: #ffffff;
     width: 100%;
     max-width: 100%;
-    padding: 2%;
+    padding: 3%;
 }
 
 article.title {
     width: 80%;
     color: rgba(0,0,0,.7);
     text-align: left;
-    margin-top: 0px;
     margin-top: 4.5%;
 }
 
@@ -106,13 +102,9 @@ article.title p {
 }
 
 div.text {
-    position: relative;
     font-family: 'Hammersmith One', sans-serif;
     font-weight: bolder;
-    width: 60%;
-    right: 200px;
     font-size: 25pt;
-    margin-top: 20px;
 }
 
 img#foto-principal {
@@ -128,7 +120,7 @@ section.second-content {
     background: #d6b7d1;
     width: 100%;
     max-width: 100%;
-    padding: 2%;
+    padding: 3%;
 }
 
 section.second-content h2 {
@@ -136,14 +128,11 @@ section.second-content h2 {
     font-family: 'Hammersmith One', sans-serif;
     color: #863c79;
     text-align: center;
-    
 }
 
 ul.cards {
     list-style: none;
     width: 60%;
-    height: 100vh;
-    border-radius: 10px;
     height: 68vh;
 }
 
@@ -151,11 +140,10 @@ ul.cards li {
     float: left;
     width: 30%;
     height: 30vh;
-    margin: 1.5%;
+    margin: 1.6%;
     padding: 2%;
-    background-color: rgba(0, 0, 0,.1);
     box-shadow: 4px 4px 7px rgba(0,0,0,.6);
-    transition: all .3s ease-in;
+    transition: all .5s ease-in;
     border-radius: 15px;  
 }
 
