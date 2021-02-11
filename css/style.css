@@ -14,9 +14,13 @@ body {
    
 }
 
+div.cards-content {
+    margin: 15px;
+}
+
 header {
     width: 100%;
-    padding: 5px 10px;
+    padding: 5px 0px;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -73,10 +77,9 @@ nav.menu ul li a span:hover {
     border: #ffffff solid;
 }
 
-section.content {
+section.first-content {
     display: block;
     background: #ffffff;
-    margin-top: 4.5%;
     width: 100%;
     max-width: 100%;
     padding: 2%;
@@ -87,6 +90,7 @@ article.title {
     color: rgba(0,0,0,.7);
     text-align: left;
     margin-top: 0px;
+    margin-top: 4.5%;
 }
 
 article.title div {
@@ -111,30 +115,28 @@ div.text {
     margin-top: 20px;
 }
 
-article.title h2 {
-    font-size: 15pt;
-    font-family: 'Hammersmith One', sans-serif;
-    color: #ffffff;
-    background-color: #863c79;
-    border-radius: 10px;
-    padding: 2px;
-    margin-top: 48px;
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-
 img#foto-principal {
     position: absolute;
-    right: 120px;
-    margin-top: -27%;
-    width: 33%;
-    height: 65vh;
+    right: 170px;
+    margin-top: -26%;
+    width: 28%;
+    height: 60vh;
 }
 
-div.cards-content  {
-    background-color: #ffffff;
+section.second-content {
+    display: block;
+    background: #d6b7d1;
     width: 100%;
+    max-width: 100%;
+    padding: 2%;
+}
+
+section.second-content h2 {
+    font-size: 25pt;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #863c79;
+    text-align: center;
+    
 }
 
 ul.cards {
@@ -143,7 +145,6 @@ ul.cards {
     height: 100vh;
     border-radius: 10px;
     height: 68vh;
-    margin-top: 130px;
 }
 
 ul.cards li {
@@ -153,7 +154,7 @@ ul.cards li {
     margin: 1.5%;
     padding: 2%;
     background-color: rgba(0, 0, 0,.1);
-    box-shadow: 2px 2px 5px rgba(0,0,0,.6);
+    box-shadow: 4px 4px 7px rgba(0,0,0,.6);
     transition: all .3s ease-in;
     border-radius: 15px;  
 }
