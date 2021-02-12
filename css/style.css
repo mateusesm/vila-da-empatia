@@ -19,10 +19,6 @@ body {
     font-size: 1.6rem;
 }
 
-div.cards-content {
-    margin: 15px;
-}
-
 header {
     width: 100%;
     padding: 5px 0px;
@@ -86,38 +82,33 @@ section.first-content {
     padding: 3%;
 }
 
-article.title {
-    width: 80%;
-    color: rgba(0,0,0,.7);
-    text-align: left;
-    margin-top: 4.5%;
-}
-
-article.title div {
-    position: relative;
-    width: 60%;
-    right: 30vh;
-}
-
-article.title p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    margin-top: 5%;
-    line-height: 2.5rem;
-}
-
 div.text {
+    position: relative;
+    width: 50%;
+    color: rgba(0,0,0,.7);
+    margin-top: 4.5%;
+    right: 15%;
+}
+
+div.text h1 {
     font-family: 'Hammersmith One', sans-serif;
     font-weight: bolder;
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     line-height: 4.5rem;
+}
+
+div.text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-top: 3%;
+    line-height: 2.5rem;
 }
 
 img#foto-principal {
     position: absolute;
-    right: 170px;
+    right: 150px;
     margin-top: -26%;
-    width: 28%;
+    width: 30%;
     height: auto;
 }
 
@@ -126,7 +117,7 @@ section.second-content {
     background: #d6b7d1;
     width: 100%;
     max-width: 100%;
-    padding: 3%;
+    padding: 1%;
 }
 
 section.second-content h2 {
@@ -134,12 +125,14 @@ section.second-content h2 {
     font-family: 'Hammersmith One', sans-serif;
     color: #863c79;
     text-align: center;
+    margin: 25px;
 }
 
 ul.cards {
     list-style: none;
     width: 60%;
     height: 68vh;
+    margin-bottom: 80px;
 }
 
 ul.cards li {
@@ -233,7 +226,7 @@ ul.cards li#foto03:hover {
     transform: scale(1.1);
 }
 
-div#leg02 {
+ul.cards li div#leg02 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -249,7 +242,7 @@ div#leg02 {
     opacity: 0;
 }
 
-div#leg02:hover {
+ul.cards li div#leg02:hover {
     opacity: 1;
 }
 
@@ -265,7 +258,7 @@ ul.cards li#foto04:hover {
     transform: scale(1.1);
 }
 
-div#leg02 {
+div.cards li div#leg02 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -281,7 +274,7 @@ div#leg02 {
     opacity: 0;
 }
 
-div#leg02:hover {
+div.cards li div#leg02:hover {
     opacity: 1;
 }
 
@@ -329,7 +322,7 @@ ul.cards li#foto06:hover {
     transform: scale(1.1);
 }
 
-footer.rodape p {
+footer.rodape {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -353,16 +346,15 @@ footer.rodape p {
         padding: 8%;
     }
 
-    article.title div {
-        position: relative;
+    div.text {
         width: 100%;
-        right: 12vh;
+        right: 10vh;
     }
 
     img#foto-principal {
-        right: 40px;
-        margin-top: -30%;
-        width: 35%;
+        right: 20px;
+        margin-top: -27%;
+        width: 30%;
     }
 
     ul.cards {
@@ -371,13 +363,29 @@ footer.rodape p {
     }
     
     ul.cards li {
-        float: left;
         width: 30%;
         height: 18vh;
-        margin: 1.6%;
-        padding: 2%;
-        box-shadow: 4px 4px 7px rgba(0,0,0,.6);
-        transition: all .5s ease-in;
-        border-radius: 15px;  
     }
+
+    ul.cards li div#leg01 {
+        font-size: 2rem;
+        padding: 9rem;
+    }
+
+    ul.cards li div#leg02 {
+        font-size: 2rem;
+        padding: 3.5em;
+    }
+
+    ul.cards li div#leg03 {
+        font-size: 2rem;
+        padding: 3em;
+    }
+
+    footer.rodape {
+        height: 180px;
+        padding: 90px;
+        font-size: 1.7rem;
+    }
+
 }
