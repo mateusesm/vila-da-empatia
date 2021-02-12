@@ -157,20 +157,6 @@ ul.cards li:hover{
     border:#863c79 solid;
 }
 
-/*ul.cards li#foto01 span {
-    opacity: 0;
-    font-size: 8.5pt;
-    background: rgba(0,0,0,.4);
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 3%;
-    transition: 1s;
-}
-
-ul.cards li#foto01:hover span {
-    opacity: 1;
-}*/
-
 ul.cards li#foto01  {
     background: url(../imagens/desabafo.jpeg) no-repeat;
     background-position: 50%;
@@ -183,7 +169,7 @@ ul.cards li#foto01:hover {
     transform: scale(1.1);
 }
 
-div#desabafe {
+div#leg01 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -193,29 +179,15 @@ div#desabafe {
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 65px;
+    padding: 6rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
 }
 
-div#desabafe:hover {
+div#leg01:hover {
     opacity: 1;
 }
-
-/*ul.cards li#foto02 span {
-    opacity: 0;
-    font-size: 8.5pt;
-    background: rgba(0,0,0,.4);
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 3%;
-    transition: 1s;
-}
-
-ul.cards li#foto02:hover span {
-    opacity: 1;
-}*/
 
 ul.cards li#foto02  {
     background: url(../imagens/aprendendo-a-lidar.jpg) no-repeat;
@@ -229,7 +201,7 @@ ul.cards li#foto02:hover {
     transform: scale(1.1);
 }
 
-div#aprenda {
+ul.cards li div#leg02 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -239,29 +211,15 @@ div#aprenda {
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 55px;
+    padding: 5.1rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
 }
 
-div#aprenda:hover {
+ul.cards li div#leg02:hover{
     opacity: 1;
 }
-
-/*ul.cards li#foto03 span {
-    opacity: 0;
-    font-size: 8.5pt;
-    background: rgba(0,0,0,.4);
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 3%;
-    transition: 1s;
-}
-
-ul.cards li#foto03:hover span {
-    opacity: 1;
-}*/
 
 ul.cards li#foto03  {
     background: url(../imagens/familia.jpg) no-repeat;
@@ -275,7 +233,7 @@ ul.cards li#foto03:hover {
     transform: scale(1.1);
 }
 
-div#familia {
+div#leg02 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -291,24 +249,9 @@ div#familia {
     opacity: 0;
 }
 
-div#familia:hover {
+div#leg02:hover {
     opacity: 1;
 }
-
-
-/*ul.cards li#foto04 span {
-    opacity: 0;
-    font-size: 8.5pt;
-    background: rgba(0,0,0,.4);
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 3%;
-    transition: 1s;
-}
-
-ul.cards li#foto04:hover span {
-    opacity: 1;
-}*/
 
 ul.cards li#foto04  {
     background: url(../imagens/mentecoracao.png) no-repeat;
@@ -322,7 +265,7 @@ ul.cards li#foto04:hover {
     transform: scale(1.1);
 }
 
-div#conciencia {
+div#leg02 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -338,24 +281,9 @@ div#conciencia {
     opacity: 0;
 }
 
-div#conciencia:hover {
+div#leg02:hover {
     opacity: 1;
 }
-
-
-/*ul.cards li#foto05 span {
-    opacity: 0;
-    font-size: 8.5pt;
-    background: hsla(0, 0%, 0%, 0.4);
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 3%;
-    transition: 1s;
-}
-
-ul.cards li#foto05:hover span {
-    opacity: 1;
-}*/
 
 ul.cards li#foto05  {
     background: url(../imagens/menteconfusa.png) no-repeat;
@@ -369,7 +297,7 @@ ul.cards li#foto05:hover {
     transform: scale(1.1);
 }
 
-div#tristeza {
+div#leg03 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -379,30 +307,15 @@ div#tristeza {
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 45px;
+    padding: 4.2rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
 }
 
-div#tristeza:hover {
+div#leg03:hover {
     opacity: 1;
 }
-
-
-/*ul.cards li#foto06 span {
-    opacity: 0;
-    font-size: 8.5pt;
-    background: rgba(0,0,0,.4);
-    border-radius: 10px;
-    color: #ffffff;
-    padding: 3%;
-    transition: 1s;
-}
-
-ul.cards li#foto06:hover span {
-    opacity: 1;
-}*/
 
 ul.cards li#foto06  {
     background: url(../imagens/menteregada.png) no-repeat;
@@ -416,30 +329,6 @@ ul.cards li#foto06:hover {
     transform: scale(1.1);
 }
 
-div#cvv {
-    position: relative;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    border-radius: 10px;
-    margin-top: -6px;
-    color: #ffffff;
-    background: rgba(0,0,0,.4);
-    width: 100%;
-    padding: 45px;
-    transition: 0.5s;
-    cursor: pointer;
-    opacity: 0;
-}
-
-div#cvv:hover {
-    opacity: 1;
-}
-
-/*ul.cards a {
-    color: black;
-}*/
-
 footer.rodape p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -451,5 +340,44 @@ footer.rodape p {
     clear: both;
 }
 
-/*#90A5AB #FF0000 #F2F2F2 #E0E0C3 #E4F0CC #003844 #D1FFC6 #0072BB  #2e7a8d */
+/*MEDIA QUERRYS*/
 
+@media (max-width: 768px) {
+    html {
+        font-size: 40%;
+    }
+
+    section.first-content {
+        width: 100%;
+        max-width: 80%;
+        padding: 8%;
+    }
+
+    article.title div {
+        position: relative;
+        width: 100%;
+        right: 12vh;
+    }
+
+    img#foto-principal {
+        right: 40px;
+        margin-top: -30%;
+        width: 35%;
+    }
+
+    ul.cards {
+        width: 90%;
+        height: 40vh;
+    }
+    
+    ul.cards li {
+        float: left;
+        width: 30%;
+        height: 18vh;
+        margin: 1.6%;
+        padding: 2%;
+        box-shadow: 4px 4px 7px rgba(0,0,0,.6);
+        transition: all .5s ease-in;
+        border-radius: 15px;  
+    }
+}
