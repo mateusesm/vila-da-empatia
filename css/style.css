@@ -114,7 +114,7 @@ div.text {
 }
 
 img#foto-principal {
-    position: fixed;
+    position: absolute;
     right: 170px;
     margin-top: -26%;
     width: 28%;
