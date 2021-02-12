@@ -103,16 +103,18 @@ article.title p {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     margin-top: 5%;
+    line-height: 2.5rem;
 }
 
 div.text {
     font-family: 'Hammersmith One', sans-serif;
     font-weight: bolder;
     font-size: 3.2rem;
+    line-height: 4.5rem;
 }
 
 img#foto-principal {
-    position: absolute;
+    position: fixed;
     right: 170px;
     margin-top: -26%;
     width: 28%;
