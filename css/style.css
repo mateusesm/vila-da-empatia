@@ -165,14 +165,14 @@ ul.cards li#foto01:hover {
 div#leg01 {
     position: relative;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -6px;
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 6rem;
+    padding: 5.8rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
@@ -194,25 +194,27 @@ ul.cards li#foto02:hover {
     transform: scale(1.1);
 }
 
+
 ul.cards li div#leg02 {
     position: relative;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bolder;
     border-radius: 10px;
-    margin-top: -6px;
+    margin-top: -2px;
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 5.1rem;
+    padding: 4.5rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
 }
 
-ul.cards li div#leg02:hover{
+ul.cards li div#leg02:hover {
     opacity: 1;
 }
+
 
 ul.cards li#foto03  {
     background: url(../imagens/familia.jpg) no-repeat;
@@ -226,26 +228,6 @@ ul.cards li#foto03:hover {
     transform: scale(1.1);
 }
 
-ul.cards li div#leg02 {
-    position: relative;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    border-radius: 10px;
-    margin-top: -2px;
-    color: #ffffff;
-    background: rgba(0,0,0,.4);
-    width: 100%;
-    padding: 50px;
-    transition: 0.5s;
-    cursor: pointer;
-    opacity: 0;
-}
-
-ul.cards li div#leg02:hover {
-    opacity: 1;
-}
-
 ul.cards li#foto04  {
     background: url(../imagens/mentecoracao.png) no-repeat;
     background-position: 50%;
@@ -256,26 +238,6 @@ ul.cards li#foto04  {
 
 ul.cards li#foto04:hover {
     transform: scale(1.1);
-}
-
-div.cards li div#leg02 {
-    position: relative;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    border-radius: 10px;
-    margin-top: -6px;
-    color: #ffffff;
-    background: rgba(0,0,0,.4);
-    width: 100%;
-    padding: 55px;
-    transition: 0.5s;
-    cursor: pointer;
-    opacity: 0;
-}
-
-div.cards li div#leg02:hover {
-    opacity: 1;
 }
 
 ul.cards li#foto05  {
@@ -293,14 +255,14 @@ ul.cards li#foto05:hover {
 div#leg03 {
     position: relative;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: -6px;
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 4.2rem;
+    padding: 3.6rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
@@ -333,7 +295,94 @@ footer.rodape {
     clear: both;
 }
 
-/*MEDIA QUERRYS*/
+/*MEDIA QUERIES*/
+/*
+@media (max-width: 1920px) {
+    html {
+        font-size: 70%;
+    }
+
+    section.first-content {
+        width: 100%;
+        max-width: 70%;
+    }
+
+    div.text {
+        width: 75%;
+    }
+
+    img#foto-principal {
+        right: 220px;
+        margin-top: -20%;
+        width: 23%;
+    }
+
+    ul.cards li div#leg01 {
+        font-size: 2rem;
+        padding: 9rem;
+    }
+
+    ul.cards li div#leg02 {
+        font-size: 2rem;
+        padding: 3.4em;
+    }
+
+    ul.cards li div#leg03 {
+        font-size: 2rem;
+        padding: 3em;
+    }
+}
+*/
+
+@media (max-width: 1280px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+    section.first-content {
+        width: 70%;
+    }
+
+    div.text {
+        width: 85%;
+    }
+
+    div.text h1 {
+        font-size: 3rem;
+        margin-top: 10%;
+    }
+
+    img#foto-principal {
+        right: 60px;
+        margin-top: -25%;
+        width: 27%;
+    }
+
+    ul.cards li div#leg01 {
+        font-size: 1.5rem;
+        padding: 7rem;
+    }
+
+    ul.cards li div#leg02 {
+        font-size: 1.5rem;
+        padding: 5.8rem;
+    }
+
+    ul.cards li#foto04  {
+        background-size: 280px;
+    }
+
+    ul.cards li div#leg03 {
+        font-size: 1.5rem;
+        padding: 5rem;
+    }
+
+    ul.cards li#foto05  {
+        background-size: 290px;
+    }
+
+}
 
 @media (max-width: 768px) {
     html {
@@ -347,7 +396,7 @@ footer.rodape {
     }
 
     div.text {
-        width: 100%;
+        width: 90%;
         right: 10vh;
     }
 
@@ -369,23 +418,54 @@ footer.rodape {
 
     ul.cards li div#leg01 {
         font-size: 2rem;
-        padding: 9rem;
+        padding: 9.5rem;
     }
 
     ul.cards li div#leg02 {
         font-size: 2rem;
-        padding: 3.5em;
+        padding: 8rem;
     }
 
     ul.cards li div#leg03 {
         font-size: 2rem;
-        padding: 3em;
+        padding: 7rem;
     }
 
     footer.rodape {
         height: 180px;
         padding: 90px;
         font-size: 1.7rem;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    section.first-content {
+        width: 100%;
+    }
+
+    div.text  {
+        width: 100%;
+        right: 90px;
+    }
+
+    img#foto-principal {
+        right: 20px;
+        margin-top: -29%;
+        width: 30%;
+    }
+
+    ul.cards li div#leg01 {
+        padding: 9.5rem;
+    }
+
+    ul.cards li div#leg02 {
+        padding: 7rem;
+    }
+
+    ul.cards li div#leg03 {
+        padding: 7rem;
     }
 
 }
