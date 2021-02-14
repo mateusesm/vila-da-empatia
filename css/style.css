@@ -36,12 +36,23 @@ header {
     align-items: center;
 }
 
+div.logo {
+    width: 20%; 
+    margin-left: 100px;
+    float: left;
+}
+
 div.logo a {
     color: #ffffff;
     text-decoration: none;
     font-size: 2.2rem;
     font-family: 'Hachi Maru Pop', cursive;
     font-weight: bolder;
+}
+
+.menu-section {
+    width: 60%;
+    float: right;
 }
 
 nav.menu ul {
@@ -395,6 +406,7 @@ footer.rodape {
 
     div.text {
         width: 90%;
+        margin-left: 10px;
         right: 10vh;
     }
 
@@ -406,12 +418,12 @@ footer.rodape {
 
     ul.cards {
         width: 90%;
-        height: 40vh;
+        height: 45vh;
     }
     
     ul.cards li {
         width: 30%;
-        height: 18vh;
+        height: 25vh;
     }
 
     ul.cards li div#leg01 {
@@ -443,9 +455,14 @@ footer.rodape {
         width: 100%;
     }
 
+    div.logo {
+        width: 25%;
+        margin-left: 15px;
+    }
+
     div.text  {
-        width: 100%;
-        right: 90px;
+        width: 98%;
+        right: 100px;
     }
 
     img#foto-principal {
@@ -454,88 +471,60 @@ footer.rodape {
         width: 30%;
     }
 
+    ul.cards li {
+        height: 23vh;
+    }
+
     ul.cards li div#leg01 {
-        padding: 9.5rem;
+        padding: 8rem;
     }
 
     ul.cards li div#leg02 {
-        padding: 7rem;
+        padding: 6rem;
     }
 
     ul.cards li div#leg03 {
-        padding: 7rem;
+        padding: 5.5rem;
     }
 
 }
 
 @media (max-width: 560px) {
-
-  
-    .menu-section.on nav {
-       display: none;
-   }
-
-   .one,
-   .two,
-   .three {
-       background-color: #ffffff;
-       height: 5px;
-       width: 100%;
-       margin: 6px auto;
-       transition-duration: 0.3s;
-   }
-
-   .menu-toggle {
-       width: 40px;
-       height: 40px;
-       margin-right: 20px;
-   }
-
-   .menu-section.on  {
-       position: absolute;
-       top: 0;
-       left: 0;
-       width: 100vw;
-       height: 100vh;
-       background-color: #863c79;
-       z-index: 10;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-
-   .menu-section.on nav {
-       display: block;
-   }
-
-   .menu-section.on .menu-toggle {
-       position: absolute;
-       right: 0;
-       top: 15px;
-   }
-
-   .menu-section.on .menu-toggle .one {
-       transform: rotate(45deg) translate(7px, 7px);
-   }
-
-   .menu-section.on .menu-toggle .two {
-       opacity: 0;
+    div.logo {
+        width: 28%;
     }
 
-    .menu-section.on .menu-toggle .three {
-    transform: rotate(-45deg) translate(8px, -9px);
+    img#foto-principal {
+        right: 20px;
+        margin-top: -36%;
+        width: 30%;
     }
 
-    nav.menu ul {
-        text-align: center;
-        display: block;
+    ul.cards {
+        height: 90vh;
     }
 
-    nav.menu ul li a {
-        transition-duration: 0.5s;
-        font-size: 5rem;
-        line-height: 10rem;
-        display: block;
+    ul.cards li {
+        position: relative;
+        width: 40%;
+        height: 26vh;
+        margin: 15px;
+        margin-left: 30px;
+    }
+
+    ul.cards li div#leg01 {
+        font-size: 2rem;
+        padding: 10rem;
+    }
+
+    ul.cards li div#leg02 {
+        font-size: 2rem;
+        padding: 8rem;
+    }
+
+    ul.cards li div#leg03 {
+        font-size: 2rem;
+        padding: 7rem;
     }
 
 }
