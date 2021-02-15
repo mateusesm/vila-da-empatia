@@ -84,7 +84,7 @@ nav.menu ul li a span:hover {
 }
 
 section.first-content {
-    display: block;
+    display: flex;
     background: #ffffff;
     width: 100%;
     max-width: 100%;
@@ -111,12 +111,13 @@ div.text p {
     font-weight: bolder;
     margin-top: 3%;
     line-height: 2.5rem;
+    text-align: justify;
 }
 
 img#foto-principal {
     position: absolute;
     right: 150px;
-    margin-top: -26%;
+    margin-top: 0%;
     width: 30%;
     height: auto;
 }
@@ -359,12 +360,12 @@ footer.rodape {
 
     div.text h1 {
         font-size: 3rem;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     img#foto-principal {
         right: 60px;
-        margin-top: -25%;
+        margin-top: 0%;
         width: 27%;
     }
 
@@ -412,7 +413,7 @@ footer.rodape {
 
     img#foto-principal {
         right: 20px;
-        margin-top: -27%;
+        margin-top: 0%;
         width: 30%;
     }
 
@@ -455,9 +456,9 @@ footer.rodape {
         width: 100%;
     }
 
-    div.logo {
+    h1.logo {
         width: 25%;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     div.text  {
@@ -467,7 +468,7 @@ footer.rodape {
 
     img#foto-principal {
         right: 20px;
-        margin-top: -29%;
+        margin-top: 0%;
         width: 30%;
     }
 
@@ -495,9 +496,9 @@ footer.rodape {
     }
 
     img#foto-principal {
-        right: 20px;
-        margin-top: -36%;
-        width: 30%;
+        right: 3px;
+        margin-top: 0%;
+        width: 35%;
     }
 
     ul.cards {
@@ -525,10 +526,6 @@ footer.rodape {
     ul.cards li div#leg03 {
         font-size: 2rem;
         padding: 7rem;
-    }
-
-    h1.logo {
-        margin: 0px 20px;
     }
 
     nav.menu {
@@ -559,7 +556,7 @@ footer.rodape {
         right: 0;
 
         width: 100vw;
-        height: 150vh;
+        height: 180vh;
 
         background-color: #863c79;
 
@@ -568,13 +565,13 @@ footer.rodape {
 
     .menu-section.on nav {
         display: block;
-        margin-top: 520px;
+        margin-top: 200px;
     }
 
     .menu-section.on .menu-toggle {
         position: absolute;
-        right: 18px;
-        top: 515px;
+        right: 5px;
+        top: 510px;
     }
 
     .menu-section.on .menu-toggle .one {
@@ -598,9 +595,120 @@ footer.rodape {
      .menu-section.on nav ul a {
         transition-duration: 0.5s;
         font-size: 5rem;
-        line-height: 8rem;
+        line-height: 5rem;
         display: block;
         padding: 25px;
     }
 
+}
+
+@media (max-width: 514px) {
+    html {
+        font-size: 30%;
+    }
+
+    h1.logo {
+        width: 30%;
+    }
+
+    h1.logo a {
+        font-size: 3.5rem;
+    }
+
+    img#foto-principal {
+        right: 0px;
+        margin-top: 4%;
+        width: 35%;
+    }
+
+    section.first-content {
+        height: 25vh;
+    }
+
+    div.text {
+        margin-top: 0px;
+    }
+
+    div.text h1 {
+        font-family: 'Hammersmith One', sans-serif;
+        font-weight: bolder;
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    div.text p {
+        position: relative;
+        margin-top: 3%;
+        margin-left: 10px;
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+       
+    }
+
+    section.second-content h2 {
+        font-size: 5rem;
+    }
+
+    ul.cards {
+        height: 180vh;
+    }
+
+    ul.cards li {
+        position: relative;
+        width: 60%;
+        height: 26vh;
+        margin: 25px;
+        margin-left: 85px;
+    }
+
+    ul.cards li div#leg01 {
+        font-size: 4rem;
+        padding: 25rem;
+    }
+
+    ul.cards li div#leg02 {
+        font-size: 4rem;
+        padding: 18rem;
+    }
+
+    ul.cards li div#leg03 {
+        font-size: 4rem;
+        padding: 18rem;
+    }
+
+    footer.rodape {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 414px) {
+    html {
+        font-size: 22%;
+    }
+
+    section.first-content {
+        height: 28vh;
+    }
+
+    div.text {
+        margin-left: 35px;
+    }
+
+    ul.cards {
+        height: 210vh;
+    }
+
+    ul.cards li {
+        position: relative;
+        width: 70%;
+        height: 28vh;
+        margin: 25px;
+        margin-left: 50px;
+    }
+
+    footer.rodape {
+        font-size: 3rem;
+    }
 }
