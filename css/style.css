@@ -36,13 +36,13 @@ header {
     align-items: center;
 }
 
-div.logo {
+h1.logo {
     width: 20%; 
     margin-left: 100px;
     float: left;
 }
 
-div.logo a {
+h1.logo a {
     color: #ffffff;
     text-decoration: none;
     font-size: 2.2rem;
@@ -490,7 +490,7 @@ footer.rodape {
 }
 
 @media (max-width: 560px) {
-    div.logo {
+    h1.logo {
         width: 28%;
     }
 
@@ -527,6 +527,10 @@ footer.rodape {
         padding: 7rem;
     }
 
+    h1.logo {
+        margin: 0px 20px;
+    }
+
     nav.menu {
         display: none;
     }
@@ -538,19 +542,23 @@ footer.rodape {
         height: 5px;
         width: 100%;
         margin: 6px auto;
+
+        transition-duration: 0.3s;
     }
 
     .menu-toggle {
         width: 40px;
         height: 40px;
+        margin-right: 15px;
+        cursor: pointer;
     }
 
     .menu-section.on {
         position: absolute;
         top: -500px;
-        right: 0px;
+        right: 0;
 
-        width: 70vw;
+        width: 100vw;
         height: 150vh;
 
         background-color: #863c79;
@@ -560,18 +568,39 @@ footer.rodape {
 
     .menu-section.on nav {
         display: block;
+        margin-top: 520px;
     }
 
     .menu-section.on .menu-toggle {
         position: absolute;
         right: 18px;
-        top: 510px;
-
+        top: 515px;
     }
 
     .menu-section.on .menu-toggle .one {
-       
+       transform: rotate(45deg) translate(7px, 7px);
+    }
 
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+     }
+
+     .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+     }
+
+     .menu-section.on nav ul {
+         text-align: center;
+         display: block;
+         
+     }
+
+     .menu-section.on nav ul a {
+        transition-duration: 0.5s;
+        font-size: 5rem;
+        line-height: 8rem;
+        display: block;
+        padding: 25px;
     }
 
 }
