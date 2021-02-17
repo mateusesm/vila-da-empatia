@@ -87,6 +87,7 @@ section.first-content {
     display: flex;
     background: #ffffff;
     width: 100%;
+    height: auto;
     max-width: 100%;
     padding: 3%;
 }
@@ -215,7 +216,7 @@ ul.cards li div#leg02 {
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 4.5rem;
+    padding: 5.6rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
@@ -272,7 +273,7 @@ div#leg03 {
     color: #ffffff;
     background: rgba(0,0,0,.4);
     width: 100%;
-    padding: 3.6rem;
+    padding: 5.8rem;
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
@@ -351,7 +352,8 @@ footer.rodape {
     }
 
     section.first-content {
-        width: 70%;
+        width: 80%;
+        height: auto;
     }
 
     div.text {
@@ -371,12 +373,12 @@ footer.rodape {
 
     ul.cards li div#leg01 {
         font-size: 1.5rem;
-        padding: 7rem;
+        padding: 6.8rem;
     }
 
     ul.cards li div#leg02 {
         font-size: 1.5rem;
-        padding: 5.8rem;
+        padding: 6.3rem;
     }
 
     ul.cards li#foto04  {
@@ -385,7 +387,7 @@ footer.rodape {
 
     ul.cards li div#leg03 {
         font-size: 1.5rem;
-        padding: 5rem;
+        padding: 6.3rem;
     }
 
     ul.cards li#foto05  {
@@ -401,6 +403,7 @@ footer.rodape {
 
     section.first-content {
         width: 100%;
+        height: auto;
         max-width: 80%;
         padding: 8%;
     }
@@ -424,22 +427,40 @@ footer.rodape {
     
     ul.cards li {
         width: 30%;
-        height: 25vh;
+        height: 20vh;
     }
 
     ul.cards li div#leg01 {
-        font-size: 2rem;
-        padding: 9.5rem;
+        font-size: 1.8rem;
+        font-weight: bolder;
+        margin-top: 160px;
+        color: #ffffff;
+        background: #863c79;
+        padding: 1rem;
+        width: 80%;
+        opacity: 1;
     }
 
     ul.cards li div#leg02 {
-        font-size: 2rem;
-        padding: 8rem;
+        font-size: 1.8rem;
+        font-weight: bolder;
+        margin-top: 160px;
+        color: #ffffff;
+        background: #863c79;
+        padding: 1rem;
+        width: 80%;
+        opacity: 1;
     }
 
     ul.cards li div#leg03 {
-        font-size: 2rem;
-        padding: 7rem;
+        font-size: 1.8rem;
+        font-weight: bolder;
+        margin-top: 160px;
+        color: #ffffff;
+        background: #863c79;
+        width: 100%;
+        padding: 1rem;
+        opacity: 1;
     }
 
     footer.rodape {
@@ -454,6 +475,7 @@ footer.rodape {
 
     section.first-content {
         width: 100%;
+        height: auto;
     }
 
     h1.logo {
@@ -473,19 +495,19 @@ footer.rodape {
     }
 
     ul.cards li {
-        height: 23vh;
+        height: 18vh;
     }
 
     ul.cards li div#leg01 {
-        padding: 8rem;
+        margin-top: 140px;
     }
 
     ul.cards li div#leg02 {
-        padding: 6rem;
+        margin-top: 140px;
     }
 
     ul.cards li div#leg03 {
-        padding: 5.5rem;
+        margin-top: 140px;
     }
 
 }
@@ -502,30 +524,26 @@ footer.rodape {
     }
 
     ul.cards {
-        height: 90vh;
+        height: 60vh;
     }
 
     ul.cards li {
         position: relative;
         width: 40%;
-        height: 26vh;
         margin: 15px;
         margin-left: 30px;
     }
 
     ul.cards li div#leg01 {
-        font-size: 2rem;
-        padding: 10rem;
+        margin-top: 140px;
     }
 
     ul.cards li div#leg02 {
-        font-size: 2rem;
-        padding: 8rem;
+        margin-top: 140px;
     }
 
     ul.cards li div#leg03 {
-        font-size: 2rem;
-        padding: 7rem;
+        margin-top: 140px;
     }
 
     nav.menu {
@@ -622,7 +640,7 @@ footer.rodape {
     }
 
     section.first-content {
-        height: 25vh;
+        height: auto;
     }
 
     div.text {
@@ -663,19 +681,20 @@ footer.rodape {
         margin-left: 85px;
     }
 
+    
     ul.cards li div#leg01 {
+        margin-top: 220px;
         font-size: 4rem;
-        padding: 25rem;
     }
 
     ul.cards li div#leg02 {
+        margin-top: 220px;
         font-size: 4rem;
-        padding: 18rem;
     }
 
     ul.cards li div#leg03 {
+        margin-top: 220px;
         font-size: 4rem;
-        padding: 18rem;
     }
 
     footer.rodape {
@@ -689,7 +708,7 @@ footer.rodape {
     }
 
     section.first-content {
-        height: 28vh;
+        height: auto;
     }
 
     div.text {
@@ -708,7 +727,39 @@ footer.rodape {
         margin-left: 50px;
     }
 
+    ul.cards li div#leg01 {
+        margin-top: 170px;
+        font-size: 4rem;
+    }
+
+    ul.cards li div#leg02 {
+        margin-top: 170px;
+        font-size: 4rem;
+    }
+
+    ul.cards li div#leg03 {
+        margin-top: 170px;
+        font-size: 4rem;
+    }
+
     footer.rodape {
         font-size: 3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    ul.cards li div#leg01 {
+        margin-top: 150px;
+        font-size: 4rem;
+    }
+
+    ul.cards li div#leg02 {
+        margin-top: 150px;
+        font-size: 4rem;
+    }
+
+    ul.cards li div#leg03 {
+        margin-top: 150px;
+        font-size: 4rem;
     }
 }
