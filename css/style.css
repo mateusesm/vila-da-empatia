@@ -749,17 +749,28 @@ footer.rodape {
 
 @media (max-width: 375px) {
     ul.cards li div#leg01 {
-        margin-top: 150px;
-        font-size: 4rem;
+        margin-top: 160px;
     }
 
     ul.cards li div#leg02 {
-        margin-top: 150px;
-        font-size: 4rem;
+        margin-top: 160px;
     }
 
     ul.cards li div#leg03 {
-        margin-top: 150px;
-        font-size: 4rem;
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 360px) {
+    ul.cards li div#leg01 {
+        margin-top: 170px;
+    }
+
+    ul.cards li div#leg02 {
+        margin-top: 170px;
+    }
+
+    ul.cards li div#leg03 {
+        margin-top: 170px;
     }
 }
