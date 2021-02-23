@@ -41,7 +41,7 @@ ul.cards-creators {
 ul.cards-creators li {
     float: left;
     width: 13vw;
-    height: 25vh;
+    height: 20vh;
     margin: 1.6%;
     padding: 8%;
     box-shadow: 4px 4px 7px rgba(0,0,0,.6);
@@ -60,28 +60,28 @@ div#name {
 ul.cards-creators li#foto1  {
     background: url(../imagens/foto1.jpeg) no-repeat;
     background-position: 50%;
-    background-size: 245px;
+    background-size: 185px;
     transition: 0.5s;
     cursor: pointer;
 }
 
-ul.cards li#foto01:hover {
+ul.cards-creators li#foto1:hover {
     transform: scale(1.1);
 }
 
-ul.cards li#foto02  {
-    background: url(../imagens/aprendendo-a-lidar.jpg) no-repeat;
+ul.cards-creators li#foto2  {
+    background: url(../imagens/foto2.jpeg) no-repeat;
     background-position: 50%;
-    background-size: 245px;
+    background-size: 182px;
     transition: 0.5s;
     cursor: pointer;
 }
 
-ul.cards li#foto02:hover {
+ul.cards-creators li#foto2:hover {
     transform: scale(1.1);
 }
 
-ul.cards li#foto03  {
+ul.cards-creators li#foto3  {
     background: url(../imagens/familia.jpg) no-repeat;
     background-position: 50%;
     background-size: 245px;
@@ -89,11 +89,11 @@ ul.cards li#foto03  {
     cursor: pointer;
 }
 
-ul.cards li#foto03:hover {
+ul.cards-creators li#foto3:hover {
     transform: scale(1.1);
 }
 
-ul.cards li#foto04  {
+ul.cards-creators li#foto4  {
     background: url(../imagens/mentecoracao.png) no-repeat;
     background-position: 50%;
     background-size: 245px;
@@ -101,11 +101,11 @@ ul.cards li#foto04  {
     cursor: pointer;
 }
 
-ul.cards li#foto04:hover {
+ul.cards-creators li#foto4:hover {
     transform: scale(1.1);
 }
 
-ul.cards li#foto05  {
+ul.cards-creators li#foto5  {
     background: url(../imagens/menteconfusa.png) no-repeat;
     background-position: 50%;
     background-size: 245px;
@@ -113,18 +113,6 @@ ul.cards li#foto05  {
     cursor: pointer;
 }
 
-ul.cards li#foto05:hover {
-    transform: scale(1.1);
-}
-
-ul.cards li#foto06  {
-    background: url(../imagens/menteregada.png) no-repeat;
-    background-position: 50%;
-    background-size: 245px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-ul.cards li#foto06:hover {
+ul.cards-creators li#foto5:hover {
     transform: scale(1.1);
 }
