@@ -14,7 +14,7 @@ section.first-content3 {
 div.text3 {
     position: relative;
     color: rgba(0,0,0,.7);
-    margin-top: 4.5%;
+    margin-top: 3%;
 }
 
 div.text3 h1 {
@@ -23,14 +23,6 @@ div.text3 h1 {
     font-size: 3.5rem;
     line-height: 4.5rem;
     text-align: center;
-}
-
-div.text3 p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    margin-top: 3%;
-    line-height: 2.5rem;
-    text-align: justify;
 }
 
 ul.cards-creators {
@@ -54,10 +46,6 @@ ul.cards-creators li {
 
 ul.cards-creators li:hover{
     border:#863c79 solid;
-}
-
-div#name {
-    opacity: 0;
 }
 
 ul.cards-creators li#foto1  {
@@ -109,9 +97,9 @@ ul.cards-creators li#foto4:hover {
 }
 
 ul.cards-creators li#foto5  {
-    background: url(../imagens/menteconfusa.png) no-repeat;
+    background: url(../imagens/foto5.jpeg) no-repeat;
     background-position: 50%;
-    background-size: 245px;
+    background-size: 182px;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -127,10 +115,329 @@ ul.cards-creators li div {
     font-weight: bolder;
     right: 105px;
     width: 210px;
-    margin-top: 110px;
+    margin-top: 105px;
     color: rgba(0,0,0,.7);
-    /*background: #863c79;*/
     text-align: center;
     transition: 0.5s;
     cursor: pointer;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1280px) {
+    ul.cards-creators li div {
+        right: 95px;
+        width: 190px;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    div.text3 {
+        margin-top: 5%;
+    }
+
+    ul.cards-creators li {
+        width: 13vw;
+        height: 12vh;  
+    }
+    
+    ul.cards-creators li#foto1  {
+        background-size: 125px;
+    }
+    
+    ul.cards-creators li#foto2  {
+        background-size: 125px;
+    }
+    
+    ul.cards-creators li#foto3  {
+        background-size: 205px;
+    }
+    
+    ul.cards-creators li#foto4  {
+        background-size: 120px;
+    }
+    
+    ul.cards-creators li#foto5  {
+        background-position: 50%;
+        background-size: 110px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    ul.cards-creators li div {
+        right: 52px;
+        width: 100px;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    div.text3 {
+        margin-top: 8%;
+    }
+
+    ul.cards-creators li {
+        width: 13vw;
+        height: 10vh;  
+    }
+
+    ul.cards-creators li#foto1  {
+        background-size: 105px;
+    }
+    
+    ul.cards-creators li#foto2  {
+        background-size: 105px;
+    }
+    
+    ul.cards-creators li#foto3  {
+        background-size: 180px;
+    }
+    
+    ul.cards-creators li#foto4  {
+        background-size: 110px;
+    }
+    
+    ul.cards-creators li#foto5  {
+        background-position: 50%;
+        background-size: 90px;
+    }
+    
+    ul.cards-creators li div {
+        font-size: 1.1rem;
+        right: 48px;
+        width: 95px;
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    div.text3 {
+        margin-top: 10%;
+    }
+
+    ul.cards-creators li {
+        width: 13vw;
+        height: 9vh;  
+    }
+
+    ul.cards-creators li#foto1  {
+        background-size: 92px;
+    }
+    
+    ul.cards-creators li#foto2  {
+        background-size: 92px;
+    }
+    
+    ul.cards-creators li#foto3  {
+        background-size: 155px;
+    }
+    
+    ul.cards-creators li#foto4  {
+        background-size: 90px;
+    }
+    
+    ul.cards-creators li#foto5  {
+        background-position: 50%;
+        background-size: 80px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    ul.cards-creators li#foto5:hover {
+        transform: scale(1.1);
+    }
+    
+    ul.cards-creators li div {
+        font-size: 1rem;
+        right: 46px;
+        width: 90px;
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 514px) {
+    div.text3 {
+        margin-top: 15%;
+    }
+
+    div.text3 h1 {
+        font-size: 5rem;
+    }
+
+    ul.cards-creators li {
+        margin-left: 105px;
+        width: 40vw;
+        height: 20vh; 
+        margin-bottom: 130px;
+    }
+
+    ul.cards-creators li#foto1  {
+        background-size: 208px;
+    }
+    
+    ul.cards-creators li#foto2  {
+        background-size: 208px;
+    }
+    
+    ul.cards-creators li#foto3  {
+        background-size: 350px;
+    }
+    
+    ul.cards-creators li#foto4  {
+        background-size: 208px;
+    }
+    
+    ul.cards-creators li#foto5  {
+        background-position: 50%;
+        background-size: 210px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    ul.cards-creators li div {
+        font-size: 2.8rem;
+        right: 75px;
+        width: 300px;
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 414px) {
+    div.text3 {
+        margin-top: 20%;
+    }
+
+    div.text3 h1 {
+        font-size: 10rem;
+        line-height: 14rem;
+    }
+
+
+    ul.cards-creators {
+        margin-top: 30px;
+    }
+
+    ul.cards-creators li {
+        margin-left: 50px;
+        width: 60vw;
+        height: 34vh; 
+        margin-bottom: 130px;
+    }
+
+    ul.cards-creators li#foto1  {
+        background-size: 250px;
+    }
+    
+    ul.cards-creators li#foto2  {
+        background-size: 250px;
+    }
+    
+    ul.cards-creators li#foto3  {
+        background-size: 418px;
+    }
+    
+    ul.cards-creators li#foto4  {
+        background-size: 250px;
+    }
+    
+    ul.cards-creators li#foto5  {
+        background-position: 50%;
+        background-size: 250px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    ul.cards-creators li div {
+        font-size: 3.8rem;
+        right: 65px;
+        width: 320px;
+        margin-top: 240px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    div.text3 h1 {
+        font-size: 12rem;
+        line-height: 14rem;
+    }
+
+    ul.cards-creators {
+        margin-top: 35px;
+    }
+
+    ul.cards-creators li {
+        margin-left: 39px;
+    }
+
+    ul.cards-creators li#foto1  {
+        background-size: 230px;
+    }
+    
+    ul.cards-creators li#foto2  {
+        background-size: 230px;
+    }
+    
+    ul.cards-creators li#foto3  {
+        background-size: 400px;
+    }
+    
+    ul.cards-creators li#foto4  {
+        background-size: 230px;
+    }
+    
+    ul.cards-creators li#foto5  {
+        background-size: 225px;
+    }
+    
+    ul.cards-creators li div {
+        font-size: 3.8rem;
+        right: 69px;
+        width: 320px;
+        margin-top: 230px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    div.text3 {
+        margin-top: 25%;
+    }
+
+    ul.cards-creators li {
+        width: 70vw;
+        height: 35vh;
+        margin-left: 23px;
+    }
+
+    ul.cards-creators li#foto1  {
+        background-size: 255px;
+    }
+    
+    ul.cards-creators li#foto2  {
+        background-size: 255px;
+    }
+    
+    ul.cards-creators li#foto3  {
+        background-size: 430px;
+    }
+    
+    ul.cards-creators li#foto4  {
+        background-size: 255px;
+    }
+    
+    ul.cards-creators li#foto5  {
+        background-size: 255px;
+    }
+    
+    ul.cards-creators li div {
+        font-size: 3.8rem;
+        right: 60px;
+        width: 320px;
+        margin-top: 250px;
+    }
 }
