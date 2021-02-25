@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background: #ffffff;
-    font-size: 1.6rem;
-}
-
 section.first-content3 {
     display: flex;
     flex-direction: column;
