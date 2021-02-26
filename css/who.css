@@ -272,7 +272,7 @@ ul.cards-creators li div {
         margin-left: 105px;
         width: 40vw;
         height: 20vh; 
-        margin-bottom: 130px;
+        margin-bottom: 150px;
     }
 
     ul.cards-creators li#foto1  {
@@ -325,7 +325,7 @@ ul.cards-creators li div {
         margin-left: 50px;
         width: 60vw;
         height: 34vh; 
-        margin-bottom: 130px;
+        margin-bottom: 150px;
     }
 
     ul.cards-creators li#foto1  {
@@ -372,10 +372,11 @@ ul.cards-creators li div {
 
     ul.cards-creators li {
         margin-left: 39px;
+        height: 31vh;
     }
 
     ul.cards-creators li#foto1  {
-        background-size: 230px;
+        background-size: 240px;
     }
     
     ul.cards-creators li#foto2  {
@@ -383,7 +384,7 @@ ul.cards-creators li div {
     }
     
     ul.cards-creators li#foto3  {
-        background-size: 400px;
+        background-size: 405px;
     }
     
     ul.cards-creators li#foto4  {
