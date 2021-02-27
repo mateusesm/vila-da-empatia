@@ -299,6 +299,7 @@ footer.rodape {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    height: auto;
     background-color: #863c79;
     color: #ffffff;
     padding: 5%;
