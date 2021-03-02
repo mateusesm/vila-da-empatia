@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     
@@ -35,8 +36,28 @@
     </header>
 
     <main>
-        <section>
-            
+        <section class="first-content">
+            <div class="text">
+                <h1>Entre em contato conosco se precisar...</h1>
+            </div>
+
+            <fieldset>
+                <form class="formu" method="POST" action="">
+
+                    
+                    <p><label for="nome">Nome:</label></p><br/>
+                    <input  class="txtbox"type="text" name="nome" id="nome" size="30" maxlength="30" placeholder="Deixe seu nome" onclick="paint()">
+                    
+
+                    <p><label for="email">E-mail:</label></p><br/>
+                    <input class="txtbox" type="email" name="email" id="email" size="30" maxlength="30" placeholder="Deixe seu melhor e-mail">
+
+                    <p><label for="msg">Deixe sua mensagem:</label></p><br/>
+                    <textarea class="txtbox" name="msg" id="msg" cols="50" rows="5" placeholder="Escreva sua mensagem aqui"></textarea>
+
+                </form>
+            </fieldset>
+
         </section>
     </main>
 
@@ -46,5 +67,6 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
