@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+section.first-content {
+    max-width: 80%;
+    flex-direction: column;
+}
+
+div.text {
+    width: 100%;
+    padding-bottom: 3%;
+    right: 0;
+}
+
+div.text h1 {
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 15px;
+}
+
+form.formu {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+form.formu p {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,.7);
+    font-weight: bolder;
+}
+
+input {
+    margin: 5px;
+}
+
+textarea {
+    margin: 5px;
+}
