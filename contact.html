@@ -42,18 +42,20 @@
             </div>
 
             <fieldset>
-                <form class="formu" method="POST" action="">
+                <form class="formu" method="POST" action="mateusemanuel198@gmail.com">
 
                     
                     <p><label for="nome">Nome:</label></p><br/>
-                    <input  class="txtbox"type="text" name="nome" id="nome" size="30" maxlength="30" placeholder="Deixe seu nome" onclick="paint()">
+                    <input class="txtbox"type="text" name="nome" id="nome" size="30" maxlength="30" placeholder="Deixe seu nome" onclick="addClass()" onmouseout="removeClass()">
                     
 
                     <p><label for="email">E-mail:</label></p><br/>
-                    <input class="txtbox" type="email" name="email" id="email" size="30" maxlength="30" placeholder="Deixe seu melhor e-mail">
+                    <input class="mailbox" type="email" name="email" id="email" size="30" maxlength="30" placeholder="Deixe seu melhor e-mail" onclick="addClass2()" onmouseout="removeClass2()">
 
                     <p><label for="msg">Deixe sua mensagem:</label></p><br/>
-                    <textarea class="txtbox" name="msg" id="msg" cols="50" rows="5" placeholder="Escreva sua mensagem aqui"></textarea>
+                    <textarea class="msgbox" name="msg" id="msg" cols="50" rows="5" placeholder="Escreva sua mensagem aqui" onclick="addClass3()" onmouseout="removeClass3()"></textarea>
+
+                    <input id="button" type="submit" value="Enviar">
 
                 </form>
             </fieldset>
