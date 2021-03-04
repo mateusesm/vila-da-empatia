@@ -76,3 +76,99 @@ textarea {
 textarea.msgbox.paint {
     border: 2px solid #863c79;
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1280px) {
+    section.first-content {
+        margin-top: -2%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.first-content {
+        margin-top: -4%;
+    }
+
+    fieldset {
+        height: 35vh;
+    }
+
+    form.formu input {
+        height: auto;
+    }
+
+    form.formu input#button {
+        margin-bottom: 55%;
+    }
+}
+
+@media (max-width: 650px) {
+    form.formu input#button {
+        margin-bottom: 65%;
+    }
+}
+
+@media (max-width: 560px) {
+    section.first-content {
+        margin-top: -1%;
+    }
+
+    form.formu input#button {
+        margin-bottom: 80%;
+    }
+}
+
+@media (max-width: 514px) {
+
+    section.first-content {
+        margin-top: 1%;
+    }
+
+    div.text h1 {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    form.formu p {
+        font-size: 3rem;
+    }
+
+    form.formu input#button {
+        width: 30%;
+        padding: 8px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 414px) {
+
+    section.first-content {
+        max-width: 100%;
+    }
+
+    div.text h1 {
+        position: relative;
+        font-size: 10rem;
+        line-height: 11rem;
+        right: 40px;
+    }
+
+    form.formu {
+        width: 80vw;
+        height: 70vh;
+        margin: auto;
+    }
+
+    form.formu p {
+        font-size: 3.5rem;
+    }
+
+    form.formu input#button {
+        width: 40%;
+        padding: 12px;
+        font-size: 3.5rem;
+        margin-bottom: 450px;
+    }
+}
