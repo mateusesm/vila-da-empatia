@@ -19,6 +19,7 @@ div.text h1 {
 
 fieldset {
     border-radius: 15px;
+    height: 350px;
 }
 
 form.formu {
@@ -69,7 +70,7 @@ form.formu input#button:hover {
 }
 
 textarea {
-    margin: 5px;
+    margin: 1%;
     width: 100%;
 }
 
@@ -93,7 +94,6 @@ textarea.msgbox.paint {
     }
 
     fieldset {
-        height: 35vh;
         margin-top: 50px;
     }
 
@@ -150,7 +150,6 @@ textarea.msgbox.paint {
     }
 
     fieldset {
-        height: 320px;
         margin-top: 30px;
     }
 
@@ -168,7 +167,11 @@ textarea.msgbox.paint {
         width: 40%;
         padding: 12px;
         font-size: 3.5rem;
-        margin-top: 30%;
+        margin-top: 15px;
+    }
+
+    textarea {
+    
     }
 }
 
@@ -178,10 +181,6 @@ textarea.msgbox.paint {
         height: 90vh;
     }
 
-    fieldset {
-        height: 320px;
-    }
- 
     form.formu {
         width: 80vw;
         height: 250px;
