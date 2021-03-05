@@ -71,6 +71,7 @@ form.formu input#button:hover {
 textarea {
     margin: 5px;
     width: 100%;
+    height: auto;
 }
 
 textarea.msgbox.paint {
@@ -155,10 +156,42 @@ textarea.msgbox.paint {
         right: 40px;
     }
 
+    fieldset {
+        height: 320px;
+    }
+
     form.formu {
         width: 80vw;
-        height: 70vh;
+        height: 300px;
         margin: auto;
+        
+    }
+
+    form.formu p {
+        font-size: 3.5rem;
+    }
+
+    form.formu input#button {
+        width: 40%;
+        padding: 12px;
+        font-size: 3.5rem;
+        margin-bottom: 450px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    section.first-content {
+        height: auto;
+    }
+
+    fieldset {
+        height: 320px;
+    }
+ 
+    form.formu {
+        width: 80vw;
+        height: 250px;
     }
 
     form.formu p {
