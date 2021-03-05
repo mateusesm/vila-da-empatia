@@ -52,7 +52,7 @@ form.formu input.mailbox.paint {
     border: 2px solid #863c79;
 }
 
-form.formu input#button {
+/*form.formu input#button {
     width: 25%;
     margin: auto;
     background-color: #863c79;
@@ -62,8 +62,7 @@ form.formu input#button {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     font-size: 1.5rem;
-    transition: .3s;
-}
+   */
 
 form.formu input#button:hover {
     background-color: #a74995;
