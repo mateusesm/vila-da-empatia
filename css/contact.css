@@ -193,7 +193,7 @@ textarea.msgbox.paint {
     }
 
     textarea {
-    
+        height: 300px;
     }
 }
 
