@@ -4,6 +4,7 @@
 
 section.first-content {
     max-width: 80%;
+    height: 100vh;
     flex-direction: column;
 }
 
@@ -19,7 +20,7 @@ div.text h1 {
 
 fieldset {
     border-radius: 15px;
-    height: 30%;
+    height: 80%;
 }
 
 form.formu {
@@ -156,7 +157,7 @@ textarea.msgbox.paint {
     }
 
     fieldset {
-        height: 43%;
+        height: 60%;
     }
 
     form.formu {
