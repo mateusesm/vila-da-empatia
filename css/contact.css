@@ -71,7 +71,7 @@ form.formu input#button:hover {
 textarea {
     margin: 5px;
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 textarea.msgbox.paint {
