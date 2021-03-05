@@ -177,6 +177,10 @@ textarea.msgbox.paint {
         font-size: 3.5rem;
         margin-bottom: 450px;
     }
+
+    textarea {
+        height: 300px;
+    }
 }
 
 @media (max-width: 375px) {
