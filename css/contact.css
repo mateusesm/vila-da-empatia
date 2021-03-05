@@ -19,7 +19,7 @@ div.text h1 {
 
 fieldset {
     border-radius: 15px;
-    height: 350px;
+    height: 30%;
 }
 
 form.formu {
@@ -52,7 +52,7 @@ form.formu input.mailbox.paint {
     border: 2px solid #863c79;
 }
 
-form.formu input#button {
+input#button {
     width: 25%;
     margin: auto;
     background-color: #863c79;
@@ -94,15 +94,21 @@ textarea.msgbox.paint {
     }
 
     fieldset {
-        margin-top: 50px;
+        height: 40%;
     }
 
     form.formu input {
         height: auto;
     }
 
-    form.formu input#button {
-        margin-bottom: 160px;
+    input#button {
+        margin-bottom: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    input#button {
+        margin-bottom: 100%;
     }
 }
 
@@ -150,7 +156,7 @@ textarea.msgbox.paint {
     }
 
     fieldset {
-        margin-top: 30px;
+        height: 43%;
     }
 
     form.formu {
@@ -163,7 +169,7 @@ textarea.msgbox.paint {
         font-size: 3.5rem;
     }
 
-    form.formu input#button {
+    input#button {
         width: 40%;
         padding: 12px;
         font-size: 3.5rem;
@@ -177,6 +183,10 @@ textarea.msgbox.paint {
         height: 90vh;
     }
 
+    fieldset {
+        height: 100%;
+    }
+
     form.formu {
         width: 80vw;
         height: 250px;
@@ -186,7 +196,7 @@ textarea.msgbox.paint {
         font-size: 3.5rem;
     }
 
-    form.formu input#button {
+    input#button {
         width: 40%;
         padding: 12px;
         font-size: 3.5rem;
