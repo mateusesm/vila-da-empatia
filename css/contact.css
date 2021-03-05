@@ -71,7 +71,7 @@ form.formu input#button:hover {
 
 textarea {
     margin: 1%;
-    width: 100%;
+    width: 642px;
     resize: none;
 }
 
@@ -84,6 +84,10 @@ textarea.msgbox.paint {
 @media (max-width: 1280px) {
     section.first-content {
         margin-top: -2%;
+    }
+
+    textarea {
+        width: 600px;
     }
 }
 
@@ -105,6 +109,18 @@ textarea.msgbox.paint {
     form.formu input#button {
         margin-bottom: 160px;
     }
+
+    textarea {
+        width: 346px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    textarea {
+        width: 290px;
+    }
+
 }
 
 @media (max-width: 560px) {
@@ -112,6 +128,11 @@ textarea.msgbox.paint {
     section.first-content {
         margin-top: -1%;
     }
+
+    textarea {
+        width: 245px;
+    }
+
 }
 
 @media (max-width: 514px) {
