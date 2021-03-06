@@ -40,3 +40,39 @@ textarea {
 textarea.msgbox.paint {
     border: 3px solid #863c79;
 }
+
+input#button {
+    width: 25%;
+    margin: auto;
+    background-color: #863c79;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+input#button:hover {
+    background-color: #a74995;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1280px) {
+    img#foto-principal {
+        width: 21.5%;
+        right: 10%;
+    }
+
+    input#button {
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 560px) {
+    img#foto-principal {
+        width: 28%;
+        right: 5%;
+    }
+}
