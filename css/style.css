@@ -117,7 +117,7 @@ div.text p {
 
 img#foto-principal {
     position: absolute;
-    right: 140px;
+    right: 8%;
     margin-top: 0%;
     width: 30%;
     height: auto;
@@ -367,7 +367,6 @@ footer.rodape {
     }
 
     img#foto-principal {
-        right: 60px;
         margin-top: 0%;
         width: 27%;
     }
@@ -416,7 +415,6 @@ footer.rodape {
     }
 
     img#foto-principal {
-        right: 20px;
         margin-top: 0%;
         width: 30%;
     }
@@ -490,7 +488,6 @@ footer.rodape {
     }
 
     img#foto-principal {
-        right: 20px;
         margin-top: 0%;
         width: 30%;
     }
@@ -519,7 +516,6 @@ footer.rodape {
     }
 
     img#foto-principal {
-        right: 3px;
         margin-top: 0%;
         width: 35%;
     }
