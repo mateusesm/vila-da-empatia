@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vila da Empatia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desabafe.css">
+</head>
+<body>
+    
+    <header>
+            
+            <h1 class="logo"><a href="index.html">Vila da Empatia</a></h1>
+            <div class="menu-section">
+              
+                <div class="menu-toggle" onclick="clicar()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="about.html"><span>Sobre</span></a></li>
+                        <li><a href="whoweare.html"><span>Quem Somos</span></a></li>
+                        <li><a href="contact.html"><span>Contato</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main>
+                <section class="first-content">
+
+                    <div class="text">
+                        <h1>Sinta-se à vontade para desabafar anonimamente :)</h1>
+                           
+                        <p>Pode ficar tranquilo (a) não compartilhamos o que você deixa aqui com ninguém</p>
+                    </div>
+                            
+                    <img src="imagens/desabafo.jpeg" alt="Desenho de menina triste" id="foto-principal">
+                </section> 
+
+                <section class="second-content">
+
+                    <h2>Desabafe aqui:</h2>
+
+                    <form class="form" action="" method="POST">
+                        <fieldset>
+                            <textarea class="msgbox" name="desabafo" id="desabafo" cols="60" rows="10" placeholder="Deixe aqui seu desabafo..." onclick="addClass3()" onmouseout="removeClass3()"></textarea>
+                        </fieldset>
+                    </form>
+                </section>
+    </main>
+
+            <footer class="rodape">
+                <p>&copy; Copyright 2021 | Mateus Macedo </p>
+            </footer>
+        
+            <script src="js/script.js"></script>
+            <script src="js/contact.js"></script>
+</body>
+</html>
