@@ -6,7 +6,7 @@ img#foto-principal {
 section.second-content {
     margin-top: 5%;
     padding: 8%;
-    padding-bottom: 0;
+    padding-bottom: 2%;
 }
 
 section.second-content h2 {
@@ -32,6 +32,7 @@ fieldset {
 
 textarea {
     position: relative;
+    padding: 1%;
     width: 100%;
     resize: none;
     border-radius: 15px;
@@ -44,6 +45,7 @@ textarea.msgbox.paint {
 input#button {
     width: 25%;
     margin: auto;
+    margin-top: 1%;
     background-color: #863c79;
     color: #ffffff;
     padding: 7px;
@@ -74,5 +76,9 @@ input#button:hover {
     img#foto-principal {
         width: 28%;
         right: 5%;
+    }
+
+    input#button {
+        font-size: 3rem;
     }
 }
