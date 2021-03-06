@@ -1,0 +1,41 @@
+img#foto-principal {
+    width: 22%;
+}
+
+section.second-content {
+    margin-top: 5%;
+    padding: 8%;
+    padding-bottom: 0;
+}
+
+section.second-content h2 {
+    margin-top: -7%;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 45vh;
+    margin: auto;
+    margin-top: -1%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+fieldset {
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+textarea {
+    position: relative;
+    width: 100%;
+    resize: none;
+    border-radius: 15px;
+}
+
+textarea.msgbox.paint {
+    border: 3px solid #863c79;
+}
