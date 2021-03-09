@@ -96,10 +96,6 @@ div#blog-card1 {
 
 @media (max-width: 514px) {
 
-    html {
-        font-size: 30%;
-    }
-
     section.first-content {
         max-width: 100%;
         flex-direction: column-reverse;
