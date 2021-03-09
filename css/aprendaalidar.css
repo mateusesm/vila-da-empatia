@@ -32,10 +32,40 @@ article.artigo {
 
 article.artigo p {
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
     line-height: 2.5rem;
     text-align: justify;
     color: rgba(0,0,0,.7);
+}
+
+section.tercer-content {
+    display: flex;
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    max-width: 80%;
+    padding: 3%;
+}
+
+div.blog-cards {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+
+div#blog-card1,
+div#blog-card2,
+div#blog-card3,
+div#blog-card4 {
+    position: relative;
+    width: 50%;
+    height: 40vh;
+    margin: 1%;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+div#blog-card1 {
+    background: ;
 }
 
 /*MEDIA QUERIES*/
@@ -132,5 +162,9 @@ article.artigo p {
     article.artigo p {
         font-size: 3rem;
         line-height: 4.5rem;
+    }
+
+    footer.rodape {
+        font-size: 2.5rem;
     }
 }
