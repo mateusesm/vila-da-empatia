@@ -13,16 +13,16 @@ section.second-content {
 
 img#ideia {
     width: 100%;
-    max-width: 34%;
+    max-width: 25%;
     float: left;
     margin-left: 12%;
-    margin-top: 6%;
+    margin-top: 1%;
 }
 
 article.artigo {
     position: relative;
     width: 100%;
-    max-width: 45%;
+    max-width: 50%;
     text-align: justify;
     float:right;
     padding: 3%;
