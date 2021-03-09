@@ -164,8 +164,3 @@ div#blog-card1 {
         font-size: 2.5rem;
     }
 }
-
-@media (max-width: 414px) {
-    html {
-        font-size: 22%;
-    }
