@@ -8,13 +8,14 @@ img#foto-principal {
 }
 
 section.second-content {
+    display: flex;
+    margin: 1.5%;
     background-color: #ffffff;
 }
 
 img#ideia {
     width: 100%;
     max-width: 25%;
-    float: left;
     margin-left: 12%;
     margin-top: 1%;
 }
@@ -24,7 +25,6 @@ article.artigo {
     width: 100%;
     max-width: 50%;
     text-align: justify;
-    float:right;
     padding: 3%;
     margin-right: 9%;
     margin-top: -1%;
@@ -38,7 +38,6 @@ article.artigo p {
 }
 
 section.tercer-content {
-    display: flex;
     background: #ffffff;
     width: 100%;
     height: auto;
@@ -59,8 +58,6 @@ div.blog-card3,
 div.blog-card4 {
     position: relative;
     background: #ffffff;
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: auto;
     padding: 1%;
@@ -132,6 +129,18 @@ div.blog-card1 .onecard {
     article.artigo {
         margin-top: -9%;
     }
+
+    div.blog-cards {
+        position: relative;
+        display: flex;
+        width: 100%;
+        max-width: 80%;
+        height: 18vh;
+    }
+
+    div.blog-card1 .onecard {
+        height: 7vh;
+    }
 }
 
 @media (max-width: 514px) {
@@ -170,14 +179,13 @@ div.blog-card1 .onecard {
     }
 
     section.second-content {
-        max-width: 80%;
-        display: flex;
+        max-width: 100%;
         flex-direction: column;
     }
 
     img#ideia {
         width: 100%;
-        max-width: 80%;
+        max-width: 70%;
         margin: auto;
         margin-top: -5%;
         margin-bottom: 5%;
@@ -186,9 +194,8 @@ div.blog-card1 .onecard {
     article.artigo {
         width: 100%;
         max-width: 100%;
-        text-align: center;
-        margin: auto;
         margin-top: -5%;
+        text-align: center;
     }
 
     article.artigo h2 {
@@ -198,9 +205,39 @@ div.blog-card1 .onecard {
     article.artigo p {
         font-size: 3rem;
         line-height: 4.5rem;
+        padding-right: 3%;
     }
 
     footer.rodape {
         font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 414px) {
+
+    div.blog-cards {
+        margin-right: 14%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    div.blog-card1,
+    div.blog-card2,
+    div.blog-card3,
+    div.blog-card4 {
+    padding: 2.5%;
+    margin: 5%;
+    }
+
+    div.blog-card1 .topcard h2 {
+        font-size: 4rem;
+    }
+    
+    div.blog-card1 .bottomcard span {
+        font-size: 3rem;
+    }
+
+    div.blog-card1 .onecard {
+        height: 12vh;
     }
 }
