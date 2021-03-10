@@ -64,10 +64,11 @@ div.blog-card4 {
     width: 100%;
     height: auto;
     padding: 1%;
-    margin: 1%;
+    margin: 1.2%;
     border: 1px solid rgba(0,0,0,.2);
     box-shadow: 2px 2px 3px rgba(0,0,0,.2);
     transition: 0.5s;
+    border-radius: 15px;
 }
 
 div.blog-card1 .topcard h2 {
