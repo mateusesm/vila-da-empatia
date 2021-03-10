@@ -42,7 +42,7 @@ section.tercer-content {
     background: #ffffff;
     width: 100%;
     height: auto;
-    max-width: 80%;
+    max-width: 100%;
     padding: 3%;
 }
 
@@ -50,18 +50,61 @@ div.blog-cards {
     position: relative;
     display: flex;
     width: 100%;
-    max-width: 100%;
+    max-width: 80%;
 }
 
-div#blog-card1,
-div#blog-card2,
-div#blog-card3,
-div#blog-card4 {
+div.blog-card1,
+div.blog-card2,
+div.blog-card3,
+div.blog-card4 {
     position: relative;
-    width: 50%;
-    height: 40vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 1%;
     margin: 1%;
     border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 2px 2px 3px rgba(0,0,0,.2);
+    transition: 0.5s;
+}
+
+div.blog-card1 .topcard h2 {
+    font-size: 1.8rem;
+    font-family: 'Hammersmith One', sans-serif; 
+    transition: 0.5s;
+}
+
+div.blog-card1 .bottomcard span {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.7);
+}
+
+div.blog-card1 a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+}
+
+div.blog-card1:hover {
+    transform: scale(1.1);
+}
+
+div.blog-card1:hover h2 {
+    color: #863c79;
+}
+
+div.blog-card1 .onecard {
+    background: url("https://blog.psicologiaviva.com.br/wp-content/uploads/2016/03/5-praticas-que-vao-lhe-ajudar-a-superar-a-depressao7656-780x470.jpg") center/cover;
+    width: 100%;
+    height: 16vh;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 /*MEDIA QUERIES*/
