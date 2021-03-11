@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+
+img#foto-principal {
+    width: 22%;
+    right: 11%;
+}
+
+section.first-content {
+    background: #E4F3F0;
+}
+
+section.second-content {
+    background: #ffffff;
+}
+
+ul.dicas {
+    list-style: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 80px;
+    padding: 2%;
+}
+
+ul.dicas li {
+    background: #ffffff;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 2%;
+    border: 1px solid rgba(0,0,0,.4);
+    box-shadow: 4px 4px 7px rgba(0,0,0,.3);
+    transition: all .3s ease-in;
+    border-radius: 15px;  
+}
+
+ul.dicas li span {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,.7);
+    text-align: center;
+}
+
+ul.dicas li:hover {
+    background-color: #863c79;
+    transform: scale(1.1);
+}
+
+ul.dicas li:hover span {
+    color: #ffffff;
+}
+
+ul.dicas span.fonte {
+    position: relative;
+    color: rgba(0,0,0,.7);
+    font-size: 1.3rem;
+    left: 39%;
+    margin-top: -20%;
+}
+
+ul.dicas span.fonte span#fonte1 {
+    font-weight: bolder;
+}
