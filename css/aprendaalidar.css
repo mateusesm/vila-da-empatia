@@ -64,7 +64,7 @@ div.blog-card4 {
     margin: 1.2%;
     border: 1px solid rgba(0,0,0,.2);
     box-shadow: 2px 2px 3px rgba(0,0,0,.2);
-    transition: 0.5s;
+    transition: all 0.5s ease-in;
     border-radius: 15px;
 }
 
