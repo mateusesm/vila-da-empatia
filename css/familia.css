@@ -10,10 +10,19 @@ img#foto-principal {
 
 section.first-content {
     background: #E4F3F0;
+    height: auto;
 }
 
 section.second-content {
+    display: flex;
+    flex-direction: column;
     background: #ffffff;
+    color: rgba(0,0,0,.7);
+    margin: 2%;
+}
+
+section.second-content h2 {
+    color: rgba(0,0,0,.7);
 }
 
 ul.dicas {
@@ -46,12 +55,12 @@ ul.dicas li span {
 }
 
 ul.dicas li:hover {
-    background-color: #863c79;
+    background: #E4F3F0;
     transform: scale(1.1);
 }
 
 ul.dicas li:hover span {
-    color: #ffffff;
+    font-weight: bolder;
 }
 
 ul.dicas span.fonte {
@@ -64,4 +73,93 @@ ul.dicas span.fonte {
 
 ul.dicas span.fonte span#fonte1 {
     font-weight: bolder;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1280px) {
+
+    section.first-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    div.text {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    div.text {
+        width: 60%;
+        left: 2%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    img#foto-principal {
+        margin-top: 3%;
+    }
+
+    ul.dicas span.fonte {
+        left: 16.5%;
+    }
+}
+
+@media (max-width: 514px) {
+
+    section.first-content {
+        flex-direction: column-reverse;
+    }
+
+    div.text {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 0;
+        text-align: center;
+        right: 0;
+    }
+
+    div.text h1 {
+        font-size: 7rem;
+        line-height: 10rem;
+    }
+
+    div.text p {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+
+    img#foto-principal {
+        position: relative;
+        width: 70%;
+        height: auto;
+        margin: auto;
+        margin-top: 15%;
+        right: 0;
+    }
+
+    section.second-content h2 {
+        font-size: 7rem;
+    }
+
+    ul.dicas li {
+        width: 80%;
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+
+    ul.dicas li span {
+        color: rgba(0,0,0,.7);
+        font-size: 3rem;
+    }
+
+    ul.dicas span.fonte {
+        font-size: 2.5rem;
+        left: 5%;
+    }
 }
