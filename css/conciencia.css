@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+img#foto-principal {
+    width: 22%;
+    right: 11%;
+}
+
+section.second-content h2 {
+    font-size: 3rem;
+}
+
+article.artigo {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    text-align: justify;
+    padding: 3%;
+    margin-right: 9%;
+    margin-top: -1%;
+}
+
+article.artigo p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.5rem;
+    text-align: justify;
+    color: rgba(0,0,0,.7);
+    width: 80%;
+}
