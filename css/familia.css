@@ -120,7 +120,7 @@ ul.dicas span.fonte span#fonte1 {
         margin: auto;
         margin-top: 0;
         text-align: center;
-        right: 0;
+        left: -1.5%;
     }
 
     div.text h1 {
