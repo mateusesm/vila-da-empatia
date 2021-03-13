@@ -7,6 +7,12 @@ img#foto-principal {
     right: 11%;
 }
 
+section.second-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
 section.second-content h2 {
     font-size: 3rem;
 }
@@ -16,9 +22,12 @@ article.artigo {
     width: 100%;
     max-width: 100%;
     text-align: justify;
-    padding: 3%;
-    margin-right: 9%;
-    margin-top: -1%;
+    padding: 2%;
+    margin: auto;
+}
+
+article.artigo h2 {
+    text-align: center;
 }
 
 article.artigo p {
@@ -26,5 +35,75 @@ article.artigo p {
     line-height: 2.5rem;
     text-align: justify;
     color: rgba(0,0,0,.7);
-    width: 80%;
+    width: 70%;
+}
+
+section.second-content a#link-image {
+    position: relative;
+    margin: auto;
+    width: 40%;
+}
+
+img#gifjanela {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+div.jogue-ja {
+    position: relative;
+    margin-top: 1%;
+    background: #863c79;
+    padding: 2%;
+    width: 100%;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+div.jogue-ja:hover {
+    border: 3px solid #ffffff;
+}
+
+div.jogue-ja span {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    left: 42%;
+}
+
+section.second-content a#link-div {
+    position: relative;
+    margin: auto;
+    width: 40%;
+    text-decoration: none;
+    margin-bottom: 1%;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 560px) {
+
+    img#foto-principal {
+        width: 28%;
+        right: 3%;
+        margin-top: 2%;
+    }
+
+    div.text {
+        margin-left: 5%;
+    }
+    
+    section.second-content a#link-image {
+        width: 60%;
+    }
+
+    div.jogue-ja span {
+        left: 39%;
+    }
+
 }
