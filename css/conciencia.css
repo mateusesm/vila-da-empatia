@@ -107,3 +107,61 @@ section.second-content a#link-div {
     }
 
 }
+
+@media (max-width: 514px) {
+    section.first-content {
+        flex-direction: column-reverse;
+    }
+
+    div.text {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 0;
+        text-align: center;
+        left: -1.5%;
+    }
+
+    div.text h1 {
+        font-size: 7rem;
+        line-height: 10rem;
+    }
+
+    div.text p {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+
+    img#foto-principal {
+        position: relative;
+        width: 70%;
+        height: auto;
+        margin: auto;
+        margin-top: 15%;
+        right: 0;
+    }
+
+    section.second-content h2 {
+        font-size: 7rem;
+    }
+
+    article.artigo p {
+        font-size: 4rem;
+        line-height: 6rem;
+        padding-right: 3%;
+    }
+
+    section.second-content a#link-image {
+        width: 80%;
+    }
+
+    section.second-content a#link-div {
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    
+    div.jogue-ja span {
+        font-size: 4rem;
+    }
+}
