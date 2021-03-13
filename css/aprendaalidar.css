@@ -106,7 +106,7 @@ div.blog-card1 .onecard {
 }
 
 div.blog-card1 .twocard {
-    background: url("https://static.tuasaude.com/media/article/da/da/depress%C3%A3o-tem-cura_23314_l.webp") center/cover;
+    background: url("https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center/cover;
     width: 100%;
     height: 16vh;
     margin-top: 33%;
@@ -114,18 +114,18 @@ div.blog-card1 .twocard {
 }
 
 div.blog-card1 .threecard {
-    background: url("https://images.pexels.com/photos/3755761/pexels-photo-3755761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center/cover;
+    background: url("https://blog.cognitivo.com/wp-content/uploads/2019/07/299546-como-e-possivel-lidar-com-adultos-com-tdah.jpg") center/cover;
     width: 100%;
     height: 16vh;
-    margin-top: 33%;
+    margin-top: 21%;
     margin-bottom: 6%;
 }
 
 div.blog-card1 .fourcard {
-    background: url("https://images.pexels.com/photos/3132388/pexels-photo-3132388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center/cover;
+    background: url("https://images.pexels.com/photos/3812721/pexels-photo-3812721.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center/cover;
     width: 100%;
     height: 16vh;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 6%;
 }
 
@@ -164,32 +164,49 @@ div.blog-card1 .fourcard {
 
     div.blog-card1 .onecard {
         height: 7vh;
-        margin-top: 28%;
+        margin-top: 20%;
     }
 
     div.blog-card1 .twocard {
         height: 7vh;
-        margin-top: 40%;
+        margin-top: 20%;
     }
     
     div.blog-card1 .threecard {
         height: 7vh;
-        margin-top: 26%;
+        margin-top: 20%;
     }
     
     div.blog-card1 .fourcard {
         height: 7vh;
-        margin-top: 10%;
+        margin-top: 20%;
     }
 }
 
 @media (max-width: 650px) {
+
+    div.blog-card1 .onecard {
+        margin-top: 20%;
+    }
+
+    div.blog-card1 .twocard {
+        margin-top: 34%;
+    }
+
     div.blog-card1 .threecard {
-        margin-top: 43%;
+        margin-top: 34%;
     }
 
     div.blog-card1 .fourcard {
-        height: 5vh;
+        height: 7vh;
+        margin-top: 19%;
+    }
+}
+
+@media (max-width: 560px) {
+
+    div.blog-card1 .threecard {
+        margin-top: 18%;
     }
 }
 
