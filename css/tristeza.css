@@ -29,3 +29,16 @@ article.artigo p {
     color: rgba(0,0,0,.7);
     width: 70%;
 }
+
+div.videos {
+    display: flex;
+    flex-direction: column;
+}
+
+div.videos iframe {
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
