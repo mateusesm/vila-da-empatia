@@ -57,6 +57,7 @@ input#button {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 input#button:hover {
